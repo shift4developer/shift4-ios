@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ex7-y7-Rqg">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Checkout-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CheckoutViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGH-L6-OQl">
+                                <rect key="frame" x="16" y="344.5" width="382" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Payment"/>
+                                <connections>
+                                    <action selector="didTapPaymentButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v8J-Oe-OJJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vai-ZF-v9d">
+                                <rect key="frame" x="16" y="79" width="382" height="101.5"/>
+                                <string key="text">Welcome to SecurionPay iOS SDK. To generate Checkout Request visit: https://securionpay.com/docs/checkout-request-generator. If you have not created your SecurionPay account yet, visit: https://securionpay.com/signup.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Public key" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7vf-Q5-S19">
+                                <rect key="frame" x="16" y="212.5" width="382" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="PublicKey"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Checkout request" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dkh-QC-692">
+                                <rect key="frame" x="16" y="278.5" width="382" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="CheckoutRequest"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQ8-pO-gbp">
+                                <rect key="frame" x="16" y="407.5" width="382" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Clear saved cards"/>
+                                <connections>
+                                    <action selector="didTapClearCardsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UyP-nQ-hvn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Dkh-QC-692" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0vy-Hq-b4V"/>
+                            <constraint firstItem="bGH-L6-OQl" firstAttribute="top" secondItem="Dkh-QC-692" secondAttribute="bottom" constant="32" id="1KS-is-EUZ"/>
+                            <constraint firstItem="7vf-Q5-S19" firstAttribute="top" secondItem="Vai-ZF-v9d" secondAttribute="bottom" constant="32" id="8RE-YA-weV"/>
+                            <constraint firstItem="bGH-L6-OQl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9Z7-Ah-hJG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bGH-L6-OQl" secondAttribute="trailing" constant="16" id="BOW-3N-tJQ"/>
+                            <constraint firstItem="7vf-Q5-S19" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CEb-Yv-fIA"/>
+                            <constraint firstItem="Dkh-QC-692" firstAttribute="top" secondItem="7vf-Q5-S19" secondAttribute="bottom" constant="32" id="Hp5-pl-VpB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7vf-Q5-S19" secondAttribute="trailing" constant="16" id="JVb-iz-lvr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dkh-QC-692" secondAttribute="trailing" constant="16" id="NB7-T5-tli"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NQ8-pO-gbp" secondAttribute="trailing" constant="16" id="Uom-Mi-tk7"/>
+                            <constraint firstItem="Vai-ZF-v9d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aT2-VJ-Hq6"/>
+                            <constraint firstAttribute="trailing" secondItem="Vai-ZF-v9d" secondAttribute="trailing" constant="16" id="kH7-2I-hmz"/>
+                            <constraint firstItem="NQ8-pO-gbp" firstAttribute="top" secondItem="bGH-L6-OQl" secondAttribute="bottom" constant="32" id="obR-te-Nta"/>
+                            <constraint firstItem="NQ8-pO-gbp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="r26-Eh-ARb"/>
+                            <constraint firstItem="Vai-ZF-v9d" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="79" id="ypB-R3-QfX"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Checkout" id="pnQ-EH-eeQ"/>
+                    <navigationItem key="navigationItem" id="JYd-2G-DWm"/>
+                    <connections>
+                        <outlet property="checkoutRequest" destination="Dkh-QC-692" id="ED4-Af-pJi"/>
+                        <outlet property="publicKey" destination="7vf-Q5-S19" id="98L-LJ-iPp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2120" y="-62"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Cqt-Qp-uy1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ex7-y7-Rqg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MsN-bN-bGB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fFh-H1-xVF" kind="relationship" relationship="rootViewController" id="Oig-Yt-LKg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxC-d0-GnU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.681159420289859" y="73.660714285714278"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="JUV-o1-OnZ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fFh-H1-xVF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="lXt-6o-1fP"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zTA-T1-RKd">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="v71-v2-t9Y"/>
+                        <segue destination="QbT-2o-H0J" kind="relationship" relationship="viewControllers" id="wp3-NP-zHe"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ByR-C0-wl9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947.82608695652186" y="73.660714285714278"/>
+        </scene>
+        <!--Custom Form-->
+        <scene sceneID="Lez-GQ-dfR">
+            <objects>
+                <viewController id="QbT-2o-H0J" customClass="CustomFormViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZBB-JS-QGE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to SecurionPay iOS SDK. If you have not created your SecurionPay account yet, visit: https://securionpay.com/signup." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixw-dL-2CO">
+                                <rect key="frame" x="16" y="79" width="414" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Public key" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2IV-ZO-Zo9">
+                                <rect key="frame" x="16" y="172" width="382" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="PublicKey"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Card number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vam-lY-R48">
+                                <rect key="frame" x="16" y="238" width="382" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="CardNumber"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Exp month" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3uF-DL-8MR">
+                                <rect key="frame" x="16" y="276" width="382" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="ExpMonth"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Exp year" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b1F-Jm-XFZ">
+                                <rect key="frame" x="16" y="314" width="382" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="ExpYear"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CVC" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="flf-hq-6yN">
+                                <rect key="frame" x="16" y="352" width="382" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="CVC"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bwy-2Q-Yke">
+                                <rect key="frame" x="16" y="450" width="382" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Payment with 3DS pushed into navigation stack"/>
+                                <connections>
+                                    <action selector="didTapPaymentButton:" destination="QbT-2o-H0J" eventType="touchUpInside" id="wfl-c3-ldy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yq-GI-PP6">
+                                <rect key="frame" x="16" y="513" width="382" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Payment with 3DS as dialog"/>
+                                <connections>
+                                    <action selector="didTapPaymentButtonDialog:" destination="QbT-2o-H0J" eventType="touchUpInside" id="ngt-nJ-BZS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="B2f-di-YEM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3yq-GI-PP6" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="0Q5-dS-Zy5"/>
+                            <constraint firstItem="B2f-di-YEM" firstAttribute="trailing" secondItem="Bwy-2Q-Yke" secondAttribute="trailing" constant="16" id="1jo-Zr-7lz"/>
+                            <constraint firstItem="vam-lY-R48" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="2o3-j0-rty"/>
+                            <constraint firstItem="2IV-ZO-Zo9" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="2xB-cj-k4Y"/>
+                            <constraint firstItem="B2f-di-YEM" firstAttribute="trailing" secondItem="b1F-Jm-XFZ" secondAttribute="trailing" constant="16" id="3Tx-7t-KYx"/>
+                            <constraint firstItem="Bwy-2Q-Yke" firstAttribute="top" secondItem="flf-hq-6yN" secondAttribute="bottom" constant="64" id="95y-w0-H0D"/>
+                            <constraint firstItem="Ixw-dL-2CO" firstAttribute="top" secondItem="ZBB-JS-QGE" secondAttribute="top" constant="79" id="ATC-tm-lJa"/>
+                            <constraint firstItem="3uF-DL-8MR" firstAttribute="top" secondItem="vam-lY-R48" secondAttribute="bottom" constant="4" id="Aps-KN-0WR"/>
+                            <constraint firstItem="2IV-ZO-Zo9" firstAttribute="top" secondItem="Ixw-dL-2CO" secondAttribute="bottom" constant="32" id="BYc-uP-V3w"/>
+                            <constraint firstItem="b1F-Jm-XFZ" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="CT2-H1-HAd"/>
+                            <constraint firstItem="3uF-DL-8MR" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="FOK-dg-Eas"/>
+                            <constraint firstItem="3yq-GI-PP6" firstAttribute="top" secondItem="Bwy-2Q-Yke" secondAttribute="bottom" constant="32" id="Hfu-RG-7AJ"/>
+                            <constraint firstItem="Ixw-dL-2CO" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="Ib6-ac-w2m"/>
+                            <constraint firstItem="Ixw-dL-2CO" firstAttribute="trailing" secondItem="B2f-di-YEM" secondAttribute="trailing" constant="16" id="Lok-Bi-puV"/>
+                            <constraint firstItem="b1F-Jm-XFZ" firstAttribute="top" secondItem="3uF-DL-8MR" secondAttribute="bottom" constant="4" id="TsS-zU-YIx"/>
+                            <constraint firstItem="flf-hq-6yN" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="W9f-UR-3dj"/>
+                            <constraint firstItem="Bwy-2Q-Yke" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="YlR-gb-kQQ"/>
+                            <constraint firstItem="B2f-di-YEM" firstAttribute="trailing" secondItem="vam-lY-R48" secondAttribute="trailing" constant="16" id="dWt-wR-27Y"/>
+                            <constraint firstItem="B2f-di-YEM" firstAttribute="trailing" secondItem="3uF-DL-8MR" secondAttribute="trailing" constant="16" id="dYK-u3-gDb"/>
+                            <constraint firstItem="B2f-di-YEM" firstAttribute="trailing" secondItem="flf-hq-6yN" secondAttribute="trailing" constant="16" id="ewj-kf-hVp"/>
+                            <constraint firstItem="B2f-di-YEM" firstAttribute="trailing" secondItem="3yq-GI-PP6" secondAttribute="trailing" constant="16" id="oXr-TP-Olk"/>
+                            <constraint firstItem="B2f-di-YEM" firstAttribute="trailing" secondItem="2IV-ZO-Zo9" secondAttribute="trailing" constant="16" id="pwL-Ux-Fms"/>
+                            <constraint firstItem="vam-lY-R48" firstAttribute="top" secondItem="2IV-ZO-Zo9" secondAttribute="bottom" constant="32" id="tos-t2-Wcg"/>
+                            <constraint firstItem="flf-hq-6yN" firstAttribute="top" secondItem="b1F-Jm-XFZ" secondAttribute="bottom" constant="4" id="uQ9-BF-HdL"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Custom Form" id="HCs-1A-uxT"/>
+                    <connections>
+                        <outlet property="cardNumber" destination="vam-lY-R48" id="q2K-mW-iXI"/>
+                        <outlet property="cvc" destination="flf-hq-6yN" id="ho4-cJ-wmL"/>
+                        <outlet property="key" destination="2IV-ZO-Zo9" id="cUc-2C-1Zo"/>
+                        <outlet property="month" destination="3uF-DL-8MR" id="zYo-QC-t5J"/>
+                        <outlet property="year" destination="b1F-Jm-XFZ" id="yBR-HZ-scq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m2n-C5-RWW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2119" y="636"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

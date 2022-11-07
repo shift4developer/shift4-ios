@@ -1,0 +1,20 @@
+PODS:
+  - Shift4 (1.1.1)
+  - SwiftLint (0.41.0)
+
+DEPENDENCIES:
+  - Shift4
+  - SwiftLint (= 0.41.0)
+
+SPEC REPOS:
+  trunk:
+    - Shift4
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Shift4: 6d6c79e9e752a23659246ea4ee69bef1cb73b4b2
+  SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
+
+PODFILE CHECKSUM: 501a55a666765d36df28b43c80a44489238fbcb3
+
+COCOAPODS: 1.11.3

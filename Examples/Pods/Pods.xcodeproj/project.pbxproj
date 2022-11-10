@@ -38,62 +38,65 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FA2C07B16F99A253B55094B7F42061B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
-			remoteInfo = SwiftLint;
-		};
-		9AE1B55AFE2E32FE2B2CBE437E44A3D0 /* PBXContainerItemProxy */ = {
+		18224DDF8BBFEB9A4F97D4F8AA652E37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A62060D7B42F7718BF845BA0FE48D479;
 			remoteInfo = Shift4;
 		};
-		9CA23044FF138464299F4CBAF9FD9EC5 /* PBXContainerItemProxy */ = {
+		24B9C5333333620B3F960A4D99BA9A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A62060D7B42F7718BF845BA0FE48D479;
+			remoteInfo = Shift4;
+		};
+		3481070D58E7908CF350C0226A042F24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
 			remoteInfo = SwiftLint;
 		};
-		A46711D0EE6DBA18EF1B328077D24D81 /* PBXContainerItemProxy */ = {
+		D85A04F104211BBBA0AC8334DCC69683 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A62060D7B42F7718BF845BA0FE48D479;
-			remoteInfo = Shift4;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DBB07640ADFFF9C18E4191B5609723B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0E6D0EC108248E017776F02EA3BF6794 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF03195EA10A8680685EA715A063A00 /* Pods-Example ObjC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example ObjC-frameworks.sh"; sourceTree = "<group>"; };
 		2EC30508995130C6551A22507EF48573 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		2F3A34549D229826653B0A067D710435 /* Shift4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shift4.release.xcconfig; sourceTree = "<group>"; };
-		3934B8C76CAB362E660BA07BF7AE0DD0 /* Shift4-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Shift4-xcframeworks.sh"; sourceTree = "<group>"; };
+		32F5B87BAE8EF7E723BB474443B0B042 /* Shift4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shift4.debug.xcconfig; sourceTree = "<group>"; };
+		3723EB502EA9C9F0525B954842EBD789 /* Shift4-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Shift4-xcframeworks.sh"; sourceTree = "<group>"; };
+		3733CE3CAAD0676157DAAE57E45285BF /* Shift4.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Shift4.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3D2F896B22DA3481C0C03FC8E1C382A7 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		567728B0C94D231EAA3D96E181128231 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		5B4E44BB7CB2C18EBB139FA3B509D701 /* Pods-Example ObjC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example ObjC"; path = Pods_Example_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D32A21B004023C9F8B2CF66CA338499 /* Pods-Example ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example ObjC.release.xcconfig"; sourceTree = "<group>"; };
 		605A15755824C8B43DBF900D66E6ED79 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		6AC1F7D7151B87CE0E04D58E7F7ADC72 /* Shift4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shift4.debug.xcconfig; sourceTree = "<group>"; };
 		6B0FBDEF700D0796F65EC458D8A68BD9 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		70D1877531C34F14735952FE88EC96EE /* Shift4.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Shift4.xcframework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78E54021F8D23EB5EE4E332B1F4D9F89 /* Pods-Example ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example ObjC.modulemap"; sourceTree = "<group>"; };
-		7C0F6C1EFA638A769FB1B9D10D1AECBB /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2648DA425A1596D6839EB93D8B7D6A3 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		A8563870D58DF016063279F8D6463A78 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		BB3C0BE112BB9D8C40AD52C580DA4A37 /* Pods-Example ObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example ObjC-umbrella.h"; sourceTree = "<group>"; };
 		C34D131B4CC3B222C95A72A988E95322 /* Pods-Example ObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example ObjC-Info.plist"; sourceTree = "<group>"; };
 		CE013E79D5C7631C4D6E8F1712203C4C /* Pods-Example ObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example ObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D41BF55A43EDA8CFCEDF4CCA2BF8825E /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB3B54FE43076C6F92E4C6E43BEAC30E /* Shift4.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Shift4.xcframework; sourceTree = "<group>"; };
+		E7261B828E21A1ED009CDD28DD3FBD06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EB72C8ED2EE7839837B82733C60F4C0E /* Pods-Example ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example ObjC-dummy.m"; sourceTree = "<group>"; };
+		ECC5C57C57D9127CCB0669B1B85A4A59 /* Shift4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Shift4.release.xcconfig; sourceTree = "<group>"; };
 		F5B3D711B2D0CF35AE0024F066F4E140 /* Pods-Example ObjC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example ObjC-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5B8DE294975C7AF7256A3F9E79F2081 /* Pods-Example ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		F7B23CE9FB0B1EF65F674B6B369DF0BD /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -119,6 +122,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03189F88146322DDED5DECC00FA82246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B54FE43076C6F92E4C6E43BEAC30E /* Shift4.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		25DE793E1483BD6E8CC51C2CF242D4E5 /* Pods-Example ObjC */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,14 +147,6 @@
 			path = "Target Support Files/Pods-Example ObjC";
 			sourceTree = "<group>";
 		};
-		3F3A7E059E42495D4FF80F06F338EAEE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				70D1877531C34F14735952FE88EC96EE /* Shift4.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,25 +155,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		89D97091D50E0EB809EC08F77B1BF393 /* Support Files */ = {
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2648DA425A1596D6839EB93D8B7D6A3 /* SwiftLint.debug.xcconfig */,
-				7C0F6C1EFA638A769FB1B9D10D1AECBB /* SwiftLint.release.xcconfig */,
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
-		8ADFA9746BAC8CABD1BBAD83720582A7 /* Support Files */ = {
+		83AB57F6C0089BBFA5BEBAC45FD447EF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3934B8C76CAB362E660BA07BF7AE0DD0 /* Shift4-xcframeworks.sh */,
-				6AC1F7D7151B87CE0E04D58E7F7ADC72 /* Shift4.debug.xcconfig */,
-				2F3A34549D229826653B0A067D710435 /* Shift4.release.xcconfig */,
+				0DBB07640ADFFF9C18E4191B5609723B /* LICENSE */,
+				E7261B828E21A1ED009CDD28DD3FBD06 /* README.md */,
+				3733CE3CAAD0676157DAAE57E45285BF /* Shift4.podspec */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Shift4";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		9EBABC98538C7ABF72C368BD6D456956 /* Products */ = {
@@ -182,14 +192,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A433422B112E00D2934D4F156607125F /* Shift4 */ = {
+		B507452478290C6CB7B9426FC53F7F09 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3F3A7E059E42495D4FF80F06F338EAEE /* Frameworks */,
-				8ADFA9746BAC8CABD1BBAD83720582A7 /* Support Files */,
+				F52CA4B5625A3CFCF01386810A900E0C /* Shift4 */,
 			);
-			name = Shift4;
-			path = Shift4;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C1AD853D3480D094F2A962BE54932596 /* Pods-Example */ = {
@@ -209,30 +217,13 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		C3963B6FE75FBE31483AADB52E137300 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A433422B112E00D2934D4F156607125F /* Shift4 */,
-				CED07B446BEB7946C608AE0A14F44A41 /* SwiftLint */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		CED07B446BEB7946C608AE0A14F44A41 /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-				89D97091D50E0EB809EC08F77B1BF393 /* Support Files */,
-			);
-			name = SwiftLint;
-			path = SwiftLint;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B507452478290C6CB7B9426FC53F7F09 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C3963B6FE75FBE31483AADB52E137300 /* Pods */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
 				9EBABC98538C7ABF72C368BD6D456956 /* Products */,
 				D75DFC7B254FDB5B08D393C993DB70B8 /* Targets Support Files */,
 			);
@@ -246,6 +237,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D2E4D90692EB7007BEC2A38C4F79CD09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3723EB502EA9C9F0525B954842EBD789 /* Shift4-xcframeworks.sh */,
+				32F5B87BAE8EF7E723BB474443B0B042 /* Shift4.debug.xcconfig */,
+				ECC5C57C57D9127CCB0669B1B85A4A59 /* Shift4.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Examples/Pods/Target Support Files/Shift4";
+			sourceTree = "<group>";
+		};
 		D75DFC7B254FDB5B08D393C993DB70B8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +255,26 @@
 				25DE793E1483BD6E8CC51C2CF242D4E5 /* Pods-Example ObjC */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		F52CA4B5625A3CFCF01386810A900E0C /* Shift4 */ = {
+			isa = PBXGroup;
+			children = (
+				03189F88146322DDED5DECC00FA82246 /* Frameworks */,
+				83AB57F6C0089BBFA5BEBAC45FD447EF /* Pod */,
+				D2E4D90692EB7007BEC2A38C4F79CD09 /* Support Files */,
+			);
+			name = Shift4;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +311,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				20C706D85E59C39EB2F2D0960046F183 /* PBXTargetDependency */,
-				DE8338731C969D65AB2614F6923420F1 /* PBXTargetDependency */,
+				3D20FF65AD7A04BA87218186EE4C9ACA /* PBXTargetDependency */,
+				3D5C79FEDD02926DA4D00B27C1187533 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
@@ -309,8 +331,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				38E63C15ED370BF2C33F0DCBCDEFC5AC /* PBXTargetDependency */,
-				1F955AAC0BE0A0BAF7C5CF2C051FC06E /* PBXTargetDependency */,
+				E46AD67C704A77284AC30C025A6877CB /* PBXTargetDependency */,
+				7DCF17ADF97951ED4D4A5048B9C16BC6 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example ObjC";
 			productName = Pods_Example_ObjC;
@@ -404,36 +426,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F955AAC0BE0A0BAF7C5CF2C051FC06E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 0FA2C07B16F99A253B55094B7F42061B /* PBXContainerItemProxy */;
-		};
-		20C706D85E59C39EB2F2D0960046F183 /* PBXTargetDependency */ = {
+		3D20FF65AD7A04BA87218186EE4C9ACA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Shift4;
 			target = A62060D7B42F7718BF845BA0FE48D479 /* Shift4 */;
-			targetProxy = 9AE1B55AFE2E32FE2B2CBE437E44A3D0 /* PBXContainerItemProxy */;
+			targetProxy = 18224DDF8BBFEB9A4F97D4F8AA652E37 /* PBXContainerItemProxy */;
 		};
-		38E63C15ED370BF2C33F0DCBCDEFC5AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Shift4;
-			target = A62060D7B42F7718BF845BA0FE48D479 /* Shift4 */;
-			targetProxy = A46711D0EE6DBA18EF1B328077D24D81 /* PBXContainerItemProxy */;
-		};
-		DE8338731C969D65AB2614F6923420F1 /* PBXTargetDependency */ = {
+		3D5C79FEDD02926DA4D00B27C1187533 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLint;
 			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 9CA23044FF138464299F4CBAF9FD9EC5 /* PBXContainerItemProxy */;
+			targetProxy = 3481070D58E7908CF350C0226A042F24 /* PBXContainerItemProxy */;
+		};
+		7DCF17ADF97951ED4D4A5048B9C16BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = D85A04F104211BBBA0AC8334DCC69683 /* PBXContainerItemProxy */;
+		};
+		E46AD67C704A77284AC30C025A6877CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shift4;
+			target = A62060D7B42F7718BF845BA0FE48D479 /* Shift4 */;
+			targetProxy = 24B9C5333333620B3F960A4D99BA9A1A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		107EDA53F71CF3EA6ED9E211703BD765 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AC1F7D7151B87CE0E04D58E7F7ADC72 /* Shift4.debug.xcconfig */;
+			baseConfigurationReference = 32F5B87BAE8EF7E723BB474443B0B042 /* Shift4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -578,7 +600,7 @@
 		};
 		3B2AAF320DD296A6F5D7324A7B3A7F7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F3A34549D229826653B0A067D710435 /* Shift4.release.xcconfig */;
+			baseConfigurationReference = ECC5C57C57D9127CCB0669B1B85A4A59 /* Shift4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -670,7 +692,7 @@
 		};
 		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C0F6C1EFA638A769FB1B9D10D1AECBB /* SwiftLint.release.xcconfig */;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -763,7 +785,7 @@
 		};
 		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2648DA425A1596D6839EB93D8B7D6A3 /* SwiftLint.debug.xcconfig */;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

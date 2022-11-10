@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Shift4/Shift4-xcframeworks.sh
-${PODS_ROOT}/Shift4/Shift4.xcframework
+${PODS_ROOT}/../../Shift4.xcframework

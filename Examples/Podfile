@@ -2,12 +2,12 @@ use_frameworks!
 
 target 'Example' do
    platform :ios, '13'
-   pod 'Shift4'
+   pod 'Shift4', path: '..'
    pod 'SwiftLint', '0.41.0'
 end
 
 target 'Example ObjC' do
    platform :ios, '13'
-   pod 'Shift4'
+   pod 'Shift4', path: '..'
    pod 'SwiftLint', '0.41.0'
 end

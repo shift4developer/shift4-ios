@@ -206,8 +206,8 @@
 				851C107A2636E9D5005001B3 /* Sources */,
 				851C107B2636E9D5005001B3 /* Frameworks */,
 				851C107C2636E9D5005001B3 /* Resources */,
-				1067ED8BEBC272CA0698DC12 /* [CP] Embed Pods Frameworks */,
 				850BE8FE28D09C1500EB650A /* Embed Frameworks */,
+				9BB897E70A024D31090AC5E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,7 +229,7 @@
 				8585DB522636E88E0018E3EF /* Frameworks */,
 				8585DB532636E88E0018E3EF /* Resources */,
 				8513C59E28B7B71500558D95 /* Embed Frameworks */,
-				902532B60690EC344A9CE866 /* [CP] Embed Pods Frameworks */,
+				AF97599A5556B8832A3E0A76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,23 +323,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1067ED8BEBC272CA0698DC12 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example ObjC/Pods-Example ObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example ObjC/Pods-Example ObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example ObjC/Pods-Example ObjC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8513C61F28BE47A800558D95 /* Copy SecurionPay 3DS framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -412,7 +395,24 @@
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/bash\nrm -rf ${SRCROOT}/ipworks3ds_sdk.xcframework\nif [ $CONFIGURATION == \"Release\" ]; then\n    cp -rf ${SRCROOT}/Frameworks/ipworks3ds_sdk_release.xcframework ${SRCROOT}/ipworks3ds_sdk.xcframework\nfi\n\nif [ $CONFIGURATION == \"Debug\" ]; then\n    cp -rf ${SRCROOT}/Frameworks/ipworks3ds_sdk_debug.xcframework ${SRCROOT}/ipworks3ds_sdk.xcframework\nfi\n";
 		};
-		902532B60690EC344A9CE866 /* [CP] Embed Pods Frameworks */ = {
+		9BB897E70A024D31090AC5E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example ObjC/Pods-Example ObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example ObjC/Pods-Example ObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example ObjC/Pods-Example ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF97599A5556B8832A3E0A76 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

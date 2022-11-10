@@ -1,4 +1,0 @@
-framework module Shift4 {
-  header "Shift4-Swift.h"
-  requires objc
-}

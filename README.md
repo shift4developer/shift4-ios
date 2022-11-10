@@ -30,6 +30,10 @@ Strict requirements of PCI 3DS SDK make development impossible. Running on simul
 
 Notice that XCode release builds and AdHoc builds with release version of Framework are forbidden too. Any attempt to perform the operation results with error. The only tool that allows to test the release version is Apple TestFlight.
 
+## App Store Review
+
+To ensure that an application using our SDK successfully passes the review process to the App Store, we have integrated it into the SecurionPay application. It also allows you to familiarize yourself with the features of our Framework in a convenient way. To do this, download the application (https://apps.apple.com/us/app/shift4-sentinel/id6444154679), then in the Profile tab, turn on the test mode. A Developers section will appear at the bottom of the screen with a demonstration of the Framework.
+
 ## Installation
 
 ### CocoaPods

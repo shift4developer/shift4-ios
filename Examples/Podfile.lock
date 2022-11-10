@@ -1,20 +1,23 @@
 PODS:
-  - Shift4 (1.1.1)
+  - Shift4 (1.1.2)
   - SwiftLint (0.41.0)
 
 DEPENDENCIES:
-  - Shift4
+  - Shift4 (from `..`)
   - SwiftLint (= 0.41.0)
 
 SPEC REPOS:
   trunk:
-    - Shift4
     - SwiftLint
 
+EXTERNAL SOURCES:
+  Shift4:
+    :path: ".."
+
 SPEC CHECKSUMS:
-  Shift4: 6d6c79e9e752a23659246ea4ee69bef1cb73b4b2
+  Shift4: df61ce4f09b446f7bd0e5147bb904398f229f01c
   SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
 
-PODFILE CHECKSUM: 501a55a666765d36df28b43c80a44489238fbcb3
+PODFILE CHECKSUM: 8b9e4ac3232f31c1b2a8825230faeb1ee00fc6d2
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.11.2

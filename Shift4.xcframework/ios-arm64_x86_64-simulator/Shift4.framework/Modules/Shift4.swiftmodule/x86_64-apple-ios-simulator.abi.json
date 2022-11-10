@@ -3457,6 +3457,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shift4"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5110,15 +5117,15 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
         "declKind": "Import",
         "moduleName": "Shift4"
       },
       {
         "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Shift4"
       },
@@ -6752,1533 +6759,1638 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/BottomDrawer\/BottomDrawerViewController.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/BottomDrawer\/BottomDrawerViewController.swift",
       "kind": "StringLiteral",
       "offset": 44,
       "length": 26,
       "value": "\"Shift4.BottomDrawerViewController\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/CurrencyFormatter.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/CurrencyFormatter.swift",
       "kind": "BooleanLiteral",
       "offset": 143,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/CurrencyFormatter.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/CurrencyFormatter.swift",
       "kind": "BooleanLiteral",
       "offset": 176,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/PaymentResult.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 151,
       "length": 13,
       "value": "\"Shift4.PaymentResult\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 177,
       "length": 3,
       "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 3,
       "value": "\"N\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 3,
       "value": "\"C\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 3,
       "value": "\"D\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 3,
       "value": "\"A\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 3,
       "value": "\"U\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 389,
       "length": 3,
       "value": "\"R\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 177,
       "length": 3,
       "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 3,
       "value": "\"N\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 3,
       "value": "\"C\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 3,
       "value": "\"D\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 3,
       "value": "\"A\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 3,
       "value": "\"U\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 389,
       "length": 3,
       "value": "\"R\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4Button.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Button.swift",
       "kind": "StringLiteral",
       "offset": 321,
       "length": 11,
       "value": "\"checkmark\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4Button.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Button.swift",
       "kind": "BooleanLiteral",
-      "offset": 1452,
+      "offset": 1419,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
       "offset": 101,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
-      "offset": 177,
+      "offset": 173,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
-      "offset": 223,
+      "offset": 219,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
-      "offset": 298,
+      "offset": 289,
+      "length": 4,
+      "value": "48.0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
+      "kind": "FloatLiteral",
+      "offset": 333,
       "length": 4,
       "value": "32.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
-      "offset": 341,
+      "offset": 376,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
-      "offset": 389,
+      "offset": 424,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
-      "offset": 435,
+      "offset": 470,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
-      "offset": 481,
+      "offset": 516,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
-      "offset": 567,
+      "offset": 594,
       "length": 4,
       "value": "40.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "FloatLiteral",
-      "offset": 657,
+      "offset": 676,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 742,
-      "length": 10,
+      "offset": 757,
+      "length": 11,
       "value": "0xFF0E5BF3"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 795,
-      "length": 10,
+      "offset": 811,
+      "length": 11,
       "value": "0xFFB00020"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 850,
-      "length": 10,
+      "offset": 867,
+      "length": 11,
       "value": "0xFF46A82E"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 922,
-      "length": 10,
+      "offset": 932,
+      "length": 11,
       "value": "0xFFECF3FE"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 983,
-      "length": 10,
+      "offset": 986,
+      "length": 11,
       "value": "0x61000000"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 1041,
-      "length": 10,
+      "offset": 1045,
+      "length": 11,
       "value": "0x99000000"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 1098,
-      "length": 10,
+      "offset": 1103,
+      "length": 11,
       "value": "0x29000000"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 17,
       "value": "\"invalid_request\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 12,
       "value": "\"card_error\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 15,
       "value": "\"gateway_error\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 27,
       "value": "\"invalid-verification-code\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 17,
       "value": "\"invalid_request\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 12,
       "value": "\"card_error\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 15,
       "value": "\"gateway_error\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 27,
       "value": "\"invalid-verification-code\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 683,
+      "offset": 663,
       "length": 16,
       "value": "\"invalid_number\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 714,
       "length": 22,
       "value": "\"invalid_expiry_month\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 770,
       "length": 21,
       "value": "\"invalid_expiry_year\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 838,
+      "offset": 818,
       "length": 13,
       "value": "\"invalid_cvc\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 880,
+      "offset": 860,
       "length": 15,
       "value": "\"incorrect_cvc\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 904,
       "length": 15,
       "value": "\"incorrect_zip\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 967,
+      "offset": 947,
       "length": 14,
       "value": "\"expired_card\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 995,
       "length": 20,
       "value": "\"insufficient_funds\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1044,
       "length": 16,
       "value": "\"lost_or_stolen\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1111,
+      "offset": 1091,
       "length": 17,
       "value": "\"suspected_fraud\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1137,
       "length": 15,
       "value": "\"card_declined\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1204,
+      "offset": 1184,
       "length": 18,
       "value": "\"processing_error\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1250,
-      "length": 13,
-      "value": "\"blacklisted\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
-      "kind": "StringLiteral",
-      "offset": 1292,
+      "offset": 1256,
       "length": 15,
       "value": "\"expired_token\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1301,
       "length": 16,
       "value": "\"limit_exceeded\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1393,
+      "offset": 1357,
       "length": 27,
       "value": "\"verification_code_invalid\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1461,
+      "offset": 1425,
       "length": 28,
       "value": "\"verification_code_required\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1528,
-      "length": 24,
-      "value": "\"enrolledCardIsRequired\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
-      "kind": "StringLiteral",
-      "offset": 1603,
-      "length": 36,
-      "value": "\"successfulLiabilityShiftIsRequired\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
-      "kind": "StringLiteral",
-      "offset": 1678,
+      "offset": 1576,
       "length": 25,
       "value": "\"authentication_required\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
+      "offset": 1630,
       "length": 15,
       "value": "\"invalid_email\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 683,
+      "offset": 663,
       "length": 16,
       "value": "\"invalid_number\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 714,
       "length": 22,
       "value": "\"invalid_expiry_month\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 770,
       "length": 21,
       "value": "\"invalid_expiry_year\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 838,
+      "offset": 818,
       "length": 13,
       "value": "\"invalid_cvc\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 880,
+      "offset": 860,
       "length": 15,
       "value": "\"incorrect_cvc\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 904,
       "length": 15,
       "value": "\"incorrect_zip\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 967,
+      "offset": 947,
       "length": 14,
       "value": "\"expired_card\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 995,
       "length": 20,
       "value": "\"insufficient_funds\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1044,
       "length": 16,
       "value": "\"lost_or_stolen\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1111,
+      "offset": 1091,
       "length": 17,
       "value": "\"suspected_fraud\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1137,
       "length": 15,
       "value": "\"card_declined\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1204,
+      "offset": 1184,
       "length": 18,
       "value": "\"processing_error\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1250,
-      "length": 13,
-      "value": "\"blacklisted\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
-      "kind": "StringLiteral",
-      "offset": 1292,
+      "offset": 1256,
       "length": 15,
       "value": "\"expired_token\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1301,
       "length": 16,
       "value": "\"limit_exceeded\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1393,
+      "offset": 1357,
       "length": 27,
       "value": "\"verification_code_invalid\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1461,
+      "offset": 1425,
       "length": 28,
       "value": "\"verification_code_required\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1528,
-      "length": 24,
-      "value": "\"enrolledCardIsRequired\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
-      "kind": "StringLiteral",
-      "offset": 1603,
-      "length": 36,
-      "value": "\"successfulLiabilityShiftIsRequired\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
-      "kind": "StringLiteral",
-      "offset": 1678,
+      "offset": 1576,
       "length": 25,
       "value": "\"authentication_required\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
+      "offset": 1630,
       "length": 15,
       "value": "\"invalid_email\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
       "offset": 75,
       "length": 11,
       "value": "\"Shift4.Shift4Error\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 1505,
+      "offset": 1334,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 1551,
+      "offset": 1380,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 1920,
       "length": 21,
       "value": "\"same_address_switch\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2269,
+      "offset": 2091,
       "length": 10,
       "value": "\"shipping\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2567,
+      "offset": 2390,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2784,
+      "offset": 2607,
       "length": 8,
       "value": "\"street\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2997,
+      "offset": 2820,
       "length": 5,
       "value": "\"zip\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3209,
+      "offset": 3032,
       "length": 6,
       "value": "\"city\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3428,
+      "offset": 3251,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3614,
+      "offset": 3433,
       "length": 9,
       "value": "\"billing\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3907,
+      "offset": 3727,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4122,
+      "offset": 3942,
       "length": 8,
       "value": "\"street\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4333,
+      "offset": 4153,
       "length": 5,
       "value": "\"zip\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4543,
+      "offset": 4363,
       "length": 6,
       "value": "\"city\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4760,
+      "offset": 4580,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4972,
+      "offset": 4792,
       "length": 5,
       "value": "\"vat\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/SMSComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/SMSComponent.swift",
       "kind": "StringLiteral",
       "offset": 218,
       "length": 13,
       "value": "\"locker_dark\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/CreditCard.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/CreditCard.swift",
       "kind": "StringLiteral",
-      "offset": 416,
+      "offset": 408,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/CreditCard.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/CreditCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 4276,
+      "offset": 4142,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/CreditCard.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/CreditCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 4280,
+      "offset": 4148,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/CreditCard.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/CreditCard.swift",
       "kind": "Array",
-      "offset": 4293,
+      "offset": 4161,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/CardCarousel.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/CardCarousel.swift",
       "kind": "Array",
       "offset": 199,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/CardCarousel.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/CardCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 435,
+      "offset": 423,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/CardCarousel.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/CardCarousel.swift",
       "kind": "StringLiteral",
       "offset": 130,
       "length": 16,
       "value": "\"Shift4.DonationCarousel\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Checkout\/CheckoutManager.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Checkout\/CheckoutManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 255,
+      "offset": 251,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Checkout\/CheckoutManager.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Checkout\/CheckoutManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10961,
+      "offset": 10160,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4.swift",
       "kind": "BooleanLiteral",
-      "offset": 352,
+      "offset": 348,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4.swift",
       "kind": "BooleanLiteral",
-      "offset": 717,
+      "offset": 705,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4.swift",
       "kind": "BooleanLiteral",
-      "offset": 762,
+      "offset": 750,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureRequest.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureRequest.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 5,
       "value": "\"ios\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/APIConfig.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/APIConfig.swift",
       "kind": "StringLiteral",
-      "offset": 86,
+      "offset": 85,
       "length": 25,
       "value": "\"https:\/\/dev.shift4.com\/\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/APIConfig.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/APIConfig.swift",
       "kind": "StringLiteral",
-      "offset": 145,
+      "offset": 144,
       "length": 25,
       "value": "\"https:\/\/api.shift4.com\/\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 13,
       "value": "\"card_number\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 14,
       "value": "\"Card_Default\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
       "offset": 562,
       "length": 12,
       "value": "\"expiration\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
-      "offset": 793,
+      "offset": 788,
       "length": 5,
       "value": "\"cvc\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
-      "offset": 874,
+      "offset": 869,
       "length": 10,
       "value": "\"Card_CVV\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 193,
+      "offset": 189,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 231,
+      "offset": 227,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 269,
+      "offset": 265,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 1410,
+      "offset": 1353,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 1429,
+      "offset": 1372,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 1807,
+      "offset": 1739,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 1819,
+      "offset": 1751,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "kind": "FloatLiteral",
+      "offset": 1932,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2136,
+      "offset": 2100,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2142,
+      "offset": 2106,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2152,
+      "offset": 2116,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 2164,
+      "offset": 2128,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/Shift4TextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4TextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 2311,
+      "offset": 2297,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 102,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 123,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 143,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 102,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 123,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 143,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 16,
       "value": "\"liabilityShift\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 16,
       "value": "\"liabilityShift\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "StringLiteral",
-      "offset": 486,
-      "length": 8,
-      "value": "\"failed\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 522,
+      "offset": 512,
       "length": 14,
       "value": "\"not_possible\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
       "kind": "StringLiteral",
-      "offset": 563,
-      "length": 12,
-      "value": "\"successful\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 486,
-      "length": 8,
-      "value": "\"failed\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 522,
+      "offset": 512,
       "length": 14,
       "value": "\"not_possible\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/ThreeDSecureInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 563,
-      "length": 12,
-      "value": "\"successful\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/Component\/EmailComponent.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/EmailComponent.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 7,
       "value": "\"email\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "FloatLiteral",
       "offset": 160,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "FloatLiteral",
       "offset": 213,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "FloatLiteral",
       "offset": 265,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "FloatLiteral",
       "offset": 318,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1152,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 646,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1594,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6431,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18126,
+      "offset": 707,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 987,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21024,
+      "offset": 1040,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1093,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1103,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1115,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1125,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1180,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1513,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1622,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1657,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1899,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2023,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2067,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2519,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2953,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7736,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19149,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21919,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "StringLiteral",
       "offset": 44,
       "length": 22,
       "value": "\"Shift4.CheckoutViewController\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 115,
       "length": 58,
       "value": "\"AccessibilityIdentifier.PaymentViewController.identifier\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 58,
       "value": "\"AccessibilityIdentifier.PaymentViewController.titleLabel\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 64,
       "value": "\"AccessibilityIdentifier.PaymentViewController.descriptionLabel\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 395,
       "length": 53,
       "value": "\"AccessibilityIdentifier.PaymentViewController.email\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 481,
       "length": 58,
       "value": "\"AccessibilityIdentifier.PaymentViewController.cardNumber\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 572,
       "length": 58,
       "value": "\"AccessibilityIdentifier.PaymentViewController.expiration\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 656,
       "length": 51,
       "value": "\"AccessibilityIdentifier.PaymentViewController.cvc\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 733,
       "length": 51,
       "value": "\"AccessibilityIdentifier.PaymentViewController.sms\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 813,
       "length": 54,
       "value": "\"AccessibilityIdentifier.PaymentViewController.button\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 901,
       "length": 59,
       "value": "\"AccessibilityIdentifier.PaymentViewController.closeButton\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 62,
       "value": "\"AccessibilityIdentifier.PaymentViewController.rememberSwitch\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 1097,
       "length": 63,
       "value": "\"AccessibilityIdentifier.PaymentViewController.emailErrorLabel\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 1197,
       "length": 62,
       "value": "\"AccessibilityIdentifier.PaymentViewController.cardErrorLabel\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
       "offset": 1292,
       "length": 58,
       "value": "\"AccessibilityIdentifier.PaymentViewController.errorLabel\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 1578,
+      "offset": 1579,
       "length": 73,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.sameAddressSwitch\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 1714,
+      "offset": 1715,
       "length": 69,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Billing.title\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 1818,
+      "offset": 1819,
       "length": 68,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Billing.name\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 1923,
+      "offset": 1924,
       "length": 70,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Billing.street\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 2027,
+      "offset": 2028,
       "length": 67,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Billing.zip\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 2129,
+      "offset": 2130,
       "length": 68,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Billing.city\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 2235,
+      "offset": 2236,
       "length": 71,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Billing.country\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 2340,
+      "offset": 2341,
       "length": 67,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Billing.vat\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 2485,
+      "offset": 2487,
       "length": 70,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Shipping.title\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 2590,
+      "offset": 2592,
       "length": 69,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Shipping.name\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 2696,
+      "offset": 2698,
       "length": 71,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Shipping.street\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 2801,
+      "offset": 2803,
       "length": 68,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Shipping.zip\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 2904,
+      "offset": 2906,
       "length": 69,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Shipping.city\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/AccessibilityIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 3013,
       "length": 72,
       "value": "\"AccessibilityIdentifier.PaymentViewController.Address.Shipping.country\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/CheckoutRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 731,
-      "length": 15,
-      "value": "\"Shift4.CheckoutRequest\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Token.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 10,
-      "value": "\"expMonth\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Token.swift",
-      "kind": "StringLiteral",
-      "offset": 312,
-      "length": 9,
-      "value": "\"expYear\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Token.swift",
-      "kind": "StringLiteral",
-      "offset": 348,
-      "length": 16,
-      "value": "\"cardholderName\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Token.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 10,
-      "value": "\"expMonth\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Token.swift",
-      "kind": "StringLiteral",
-      "offset": 312,
-      "length": 9,
-      "value": "\"expYear\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/Token.swift",
-      "kind": "StringLiteral",
-      "offset": 348,
-      "length": 16,
-      "value": "\"cardholderName\""
-    },
-    {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Views\/SMSCodeTextField.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
       "kind": "BooleanLiteral",
-      "offset": 3412,
+      "offset": 185,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
+      "kind": "BooleanLiteral",
+      "offset": 430,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
+      "kind": "BooleanLiteral",
+      "offset": 584,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 690,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
+      "kind": "BooleanLiteral",
+      "offset": 833,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
+      "kind": "IntegerLiteral",
+      "offset": 960,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
+      "kind": "BooleanLiteral",
+      "offset": 986,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1146,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/CheckoutRequest.swift",
       "kind": "StringLiteral",
-      "offset": 999,
+      "offset": 723,
+      "length": 15,
+      "value": "\"Shift4.CheckoutRequest\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 10,
+      "value": "\"expMonth\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 9,
+      "value": "\"expYear\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 16,
+      "value": "\"cardholderName\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 10,
+      "value": "\"expMonth\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 9,
+      "value": "\"expYear\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Token.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 16,
+      "value": "\"cardholderName\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/SMSCodeTextField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3380,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
       "length": 14,
       "value": "\"Lato-Regular\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "FloatLiteral",
-      "offset": 1059,
+      "offset": 1061,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "StringLiteral",
-      "offset": 1307,
+      "offset": 1310,
       "length": 11,
       "value": "\"Lato-Bold\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "FloatLiteral",
-      "offset": 1364,
+      "offset": 1367,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "StringLiteral",
-      "offset": 1624,
+      "offset": 1628,
       "length": 17,
       "value": "\"Montserrat-Bold\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "FloatLiteral",
-      "offset": 1687,
+      "offset": 1691,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "StringLiteral",
-      "offset": 2011,
+      "offset": 2016,
       "length": 14,
       "value": "\"Lato-Regular\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "FloatLiteral",
-      "offset": 2071,
+      "offset": 2076,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "StringLiteral",
-      "offset": 2586,
+      "offset": 2593,
       "length": 14,
       "value": "\"Lato-Regular\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "FloatLiteral",
-      "offset": 2646,
+      "offset": 2653,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "StringLiteral",
-      "offset": 2898,
+      "offset": 2906,
       "length": 14,
       "value": "\"Lato-Regular\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "FloatLiteral",
-      "offset": 2958,
+      "offset": 2966,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "StringLiteral",
-      "offset": 3250,
+      "offset": 3259,
       "length": 14,
       "value": "\"Lato-Regular\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Shift4Style.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
       "kind": "FloatLiteral",
-      "offset": 3310,
+      "offset": 3319,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/TokenRequest.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/TokenRequest.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 10,
       "value": "\"expMonth\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/TokenRequest.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/TokenRequest.swift",
       "kind": "StringLiteral",
       "offset": 221,
       "length": 9,
       "value": "\"expYear\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/TokenRequest.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/TokenRequest.swift",
       "kind": "StringLiteral",
       "offset": 274,
       "length": 16,
       "value": "\"cardholderName\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/TokenRequest.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/TokenRequest.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 10,
       "value": "\"expMonth\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/TokenRequest.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/TokenRequest.swift",
       "kind": "StringLiteral",
       "offset": 221,
       "length": 9,
       "value": "\"expYear\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/TokenRequest.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/TokenRequest.swift",
       "kind": "StringLiteral",
       "offset": 274,
       "length": 16,
       "value": "\"cardholderName\""
     },
     {
-      "filePath": "\/Users\/michalbanasiak\/securionpay-ios-sdk\/Shift4\/Library\/Model\/TokenRequest.swift",
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/TokenRequest.swift",
       "kind": "StringLiteral",
       "offset": 54,
       "length": 12,

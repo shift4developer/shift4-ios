@@ -7778,7 +7778,7 @@
       "kind": "FloatLiteral",
       "offset": 213,
       "length": 3,
-      "value": "0.2"
+      "value": "0.3"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
@@ -7916,21 +7916,21 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7736,
+      "offset": 7958,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19149,
+      "offset": 19371,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21919,
+      "offset": 22141,
       "length": 4,
       "value": "true"
     },

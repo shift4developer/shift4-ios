@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "Shift4"
-  s.version       = "1.1.2"
+  s.version       = "1.1.3"
   s.summary       = "iOS SDK for Shift4"
   s.description   = "Framework allows you to easily add Shift4 payments to your mobile apps."
   s.homepage      = "https://github.com/shift4developer/shift4-ios.git"

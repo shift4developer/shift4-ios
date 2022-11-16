@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ex7-y7-Rqg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ex7-y7-Rqg">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGH-L6-OQl">
-                                <rect key="frame" x="16" y="344.5" width="382" height="31"/>
+                                <rect key="frame" x="16" y="344.5" width="382" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Payment"/>
                                 <connections>
@@ -27,7 +27,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vai-ZF-v9d">
                                 <rect key="frame" x="16" y="79" width="382" height="101.5"/>
-                                <string key="text">Welcome to SecurionPay iOS SDK. To generate Checkout Request visit: https://securionpay.com/docs/checkout-request-generator. If you have not created your SecurionPay account yet, visit: https://securionpay.com/signup.</string>
+                                <string key="text">Welcome to Shift4 iOS SDK. To generate Checkout Request visit: https://dev.shift4.com/docs/checkout-request-generator. If you have not created your Shift4 account yet, visit: https://dev.shift4.com/signup.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -45,7 +45,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQ8-pO-gbp">
-                                <rect key="frame" x="16" y="407.5" width="382" height="31"/>
+                                <rect key="frame" x="16" y="411" width="382" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Clear saved cards"/>
                                 <connections>
@@ -90,7 +90,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ex7-y7-Rqg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MsN-bN-bGB">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -130,8 +130,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to SecurionPay iOS SDK. If you have not created your SecurionPay account yet, visit: https://securionpay.com/signup." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixw-dL-2CO">
-                                <rect key="frame" x="16" y="79" width="414" height="61"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Shift4 iOS SDK. If you have not created your Shift4 account yet, visit: https://dev.shift4.com/signup." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixw-dL-2CO">
+                                <rect key="frame" x="16" y="79" width="382" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -167,7 +167,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bwy-2Q-Yke">
-                                <rect key="frame" x="16" y="450" width="382" height="31"/>
+                                <rect key="frame" x="16" y="450" width="382" height="54.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Payment with 3DS pushed into navigation stack"/>
                                 <connections>
@@ -175,7 +175,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yq-GI-PP6">
-                                <rect key="frame" x="16" y="513" width="382" height="31"/>
+                                <rect key="frame" x="16" y="536.5" width="382" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Payment with 3DS as dialog"/>
                                 <connections>
@@ -199,7 +199,7 @@
                             <constraint firstItem="3uF-DL-8MR" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="FOK-dg-Eas"/>
                             <constraint firstItem="3yq-GI-PP6" firstAttribute="top" secondItem="Bwy-2Q-Yke" secondAttribute="bottom" constant="32" id="Hfu-RG-7AJ"/>
                             <constraint firstItem="Ixw-dL-2CO" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="Ib6-ac-w2m"/>
-                            <constraint firstItem="Ixw-dL-2CO" firstAttribute="trailing" secondItem="B2f-di-YEM" secondAttribute="trailing" constant="16" id="Lok-Bi-puV"/>
+                            <constraint firstItem="Ixw-dL-2CO" firstAttribute="trailing" secondItem="B2f-di-YEM" secondAttribute="trailing" constant="-16" id="Lok-Bi-puV"/>
                             <constraint firstItem="b1F-Jm-XFZ" firstAttribute="top" secondItem="3uF-DL-8MR" secondAttribute="bottom" constant="4" id="TsS-zU-YIx"/>
                             <constraint firstItem="flf-hq-6yN" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="W9f-UR-3dj"/>
                             <constraint firstItem="Bwy-2Q-Yke" firstAttribute="leading" secondItem="B2f-di-YEM" secondAttribute="leading" constant="16" id="YlR-gb-kQQ"/>
@@ -223,7 +223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m2n-C5-RWW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2119" y="636"/>
+            <point key="canvasLocation" x="2118.840579710145" y="635.49107142857144"/>
         </scene>
     </scenes>
     <resources>

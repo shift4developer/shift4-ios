@@ -146,11 +146,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Yf3aps2o5jObJheReMpwNh/xgxc=
+		RmISAk2TmKFr42NAP1+RqR6vleg=
 		</data>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LQ5yT3yfORIHlMOUsS7/4ctaqZw=
+		PufWEuWk7W/h275xv7uoS3efieM=
 		</data>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LQ5yT3yfORIHlMOUsS7/4ctaqZw=
+		PufWEuWk7W/h275xv7uoS3efieM=
 		</data>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -756,7 +756,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SjWGegTRJpzM+jZPhn6gDhH/Q/nepVz47AIKRDLcoBU=
+			FGPEtV4RbV7prxvZvCWuxaQsH+KGls5ks9TWURqVcRw=
 			</data>
 		</dict>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -791,7 +791,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SjWGegTRJpzM+jZPhn6gDhH/Q/nepVz47AIKRDLcoBU=
+			FGPEtV4RbV7prxvZvCWuxaQsH+KGls5ks9TWURqVcRw=
 			</data>
 		</dict>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

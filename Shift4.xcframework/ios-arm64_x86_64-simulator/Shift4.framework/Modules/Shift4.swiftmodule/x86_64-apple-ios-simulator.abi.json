@@ -7517,7 +7517,7 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Checkout\/CheckoutManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10160,
+      "offset": 10074,
       "length": 5,
       "value": "false"
     },

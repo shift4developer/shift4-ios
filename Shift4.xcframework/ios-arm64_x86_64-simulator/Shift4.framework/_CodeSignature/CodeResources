@@ -138,7 +138,7 @@
 		</data>
 		<key>Headers/Shift4-Swift.h</key>
 		<data>
-		Mt1C7LkHGK3phNJf7ew+T6EyEWc=
+		AVadqP7Kl9cQifDp/PAUo//G6Ho=
 		</data>
 		<key>Headers/shift4_ios.h</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RmISAk2TmKFr42NAP1+RqR6vleg=
+		h5J7Wasuo7GKLN+T4SonzTlOJqk=
 		</data>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -154,19 +154,19 @@
 		</data>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RYdEB0ckM2vScA4aOMlHCVqS4Ss=
+		7z0KtVgsIaUNQ3ma8LDENPBgD7A=
 		</data>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		sfK+mWn8a3GiCymMCjCHsITCZUE=
+		xDU5g6mP9ae3ASpAdVpP5HCwE3o=
 		</data>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RYdEB0ckM2vScA4aOMlHCVqS4Ss=
+		7z0KtVgsIaUNQ3ma8LDENPBgD7A=
 		</data>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0Q/WtAiJJUWN3cEz0gnsQUnVsLE=
+		0uSB3yrkDHVhD240Jn0GPzjM1VU=
 		</data>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -174,19 +174,19 @@
 		</data>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hcgnLLntDxFgC9BAyjowYwO0uUo=
+		1LfzgR1gPQ1WrmIQo8Ic14O8s9o=
 		</data>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MHhYRIrY0ik49hKQD4en1ZCENJI=
+		0AoSR2wG5WeQBSkE1ytuxTUOv7M=
 		</data>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hcgnLLntDxFgC9BAyjowYwO0uUo=
+		1LfzgR1gPQ1WrmIQo8Ic14O8s9o=
 		</data>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		R8AEZI/Vg/Uj/HMmqYEgQCzUBAs=
+		o0SzKtRb/HiC7CdnzRe5agVa//k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -742,7 +742,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j8OTlhSh0b44MNYp8yCTuDvC2MUmtRh6lPfC04Bf0p0=
+			InTuZvzM8GBcBkqGLv3YzXMNKXwgioLBbD87kTbJVfc=
 			</data>
 		</dict>
 		<key>Headers/shift4_ios.h</key>
@@ -763,28 +763,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EvZLekbVkfar2cs3+kd0CPnH9idPqsD6CmlSv/Sx3DU=
+			l840MzC7XgIpBtX6k1pHRlHUwulTkP+4SsB/yRtKcS8=
 			</data>
 		</dict>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJ3giFo4iKHC1t/ppINeCB3t2SMkfqsvWKXBZNUliiM=
+			8RJkU06avGFc+h9LOu+qFFF/1X8HlE9EX1TDSPVVWwc=
 			</data>
 		</dict>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EvZLekbVkfar2cs3+kd0CPnH9idPqsD6CmlSv/Sx3DU=
+			l840MzC7XgIpBtX6k1pHRlHUwulTkP+4SsB/yRtKcS8=
 			</data>
 		</dict>
 		<key>Modules/Shift4.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l/0bM6hM8t29Nj5dVenNeWbccEKTYbbDP6WrlegbUn0=
+			zaoHQvvgts5V7498nKc9mmxzhw+E6zTQCxRLsr9Ya2E=
 			</data>
 		</dict>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -798,28 +798,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BDIJhW98fA2NGjhuvsryicSiot9X3+L8a+fSGEO2AaM=
+			YYnXxVKdB49dutTHYGvttkyvqIBYbr9JMhEqvDdpid8=
 			</data>
 		</dict>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j99xPE/ZTO5KmnR8yTqxWXGGA7ZIJ18q+tx8M+qaGQg=
+			bz6vU2bq0SDLvxIlaYG2UPq6AiivhKJym0K6TOFFYQQ=
 			</data>
 		</dict>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BDIJhW98fA2NGjhuvsryicSiot9X3+L8a+fSGEO2AaM=
+			YYnXxVKdB49dutTHYGvttkyvqIBYbr9JMhEqvDdpid8=
 			</data>
 		</dict>
 		<key>Modules/Shift4.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l5jLzKAtAbPUAmLpTI8lA93rNllH3nXUN4/6NbYsdcw=
+			yvv4Vk4FZF79ar1dlxu5DE8UWX+gDXgSxH4FCa/rOUA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

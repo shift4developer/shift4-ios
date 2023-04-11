@@ -89,7 +89,7 @@ import ipworks3ds_sdk
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
-@objc(S4Card) public class Card : ObjectiveC.NSObject, Swift.Codable {
+@_hasMissingDesignatedInitializers @objc(S4Card) public class Card : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let last2: Swift.String?
   @objc final public let last4: Swift.String?
   @objc final public let brand: Swift.String
@@ -102,6 +102,7 @@ import ipworks3ds_sdk
   @objc public static let shared: Shift4.Shift4SDK
   @objc final public var publicKey: Swift.String?
   @objc final public var bundleIdentifier: Swift.String?
+  @objc final public let style: Shift4.Shift4Style
   @objc final public func showCheckoutViewController(in viewController: UIKit.UIViewController, checkoutRequest: Shift4.CheckoutRequest, merchantName: Swift.String, description: Swift.String, merchantLogo: UIKit.UIImage? = nil, collectShippingAddress: Swift.Bool = false, collectBillingAddress: Swift.Bool = false, email: Swift.String? = nil, completion: @escaping (Shift4.PaymentResult?, Shift4.Shift4Error?) -> Swift.Void)
   @objc final public func cleanSavedCards()
   @objc final public func createToken(with request: Shift4.TokenRequest, completion: @escaping (Shift4.Token?, Shift4.Shift4Error?) -> Swift.Void)
@@ -154,6 +155,36 @@ import ipworks3ds_sdk
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(S4Style) final public class Shift4Style : ObjectiveC.NSObject {
+  @_inheritsConvenienceInitializers @objc(S4StyleButton) final public class Button : ObjectiveC.NSObject {
+    final public var cornerRadius: CoreFoundation.CGFloat
+    final public var height: CoreFoundation.CGFloat
+    final public var font: UIKit.UIFont
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @_inheritsConvenienceInitializers @objc(S4StyleFont) final public class Font : ObjectiveC.NSObject {
+    final public var regularlabel: UIKit.UIFont
+    final public var label: UIKit.UIFont
+    final public var error: UIKit.UIFont
+    final public var body: UIKit.UIFont
+    final public var tileLabel: UIKit.UIFont
+    final public var section: UIKit.UIFont
+    final public var title: UIKit.UIFont
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  final public var primaryColor: UIKit.UIColor
+  final public var successColor: UIKit.UIColor
+  final public var errorColor: UIKit.UIColor
+  final public var primaryTextColor: UIKit.UIColor
+  final public var placeholderColor: UIKit.UIColor
+  final public var disabledColor: UIKit.UIColor
+  final public var separatorColor: UIKit.UIColor
+  final public var button: Shift4.Shift4Style.Button
+  final public var font: Shift4.Shift4Style.Font
+  @objc deinit
 }
 @objc(S4TokenRequest) public class TokenRequest : ObjectiveC.NSObject, Swift.Codable {
   @objc public init(number: Swift.String, expirationMonth: Swift.String, expirationYear: Swift.String, cvc: Swift.String, cardholder: Swift.String? = nil)

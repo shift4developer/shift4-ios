@@ -3156,6 +3156,32 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "Shift4.Card",
+                "usr": "c:@M@Shift4@objc(cs)S4Card"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Shift4@objc(cs)S4Card(im)init",
+            "mangledName": "$s6Shift44CardCACycfc",
+            "moduleName": "Shift4",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -3218,6 +3244,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -3819,6 +3846,56 @@
                   "Final"
                 ],
                 "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "style",
+            "printedName": "style",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Shift4Style",
+                "printedName": "Shift4.Shift4Style",
+                "usr": "c:@M@Shift4@objc(cs)S4Style"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Shift4@objc(cs)Shift4SDK(py)style",
+            "mangledName": "$s6Shift40A3SDKC5styleAA0A5StyleCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Shift4Style",
+                    "printedName": "Shift4.Shift4Style",
+                    "usr": "c:@M@Shift4@objc(cs)S4Style"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Shift4@objc(cs)Shift4SDK(im)style",
+                "mangledName": "$s6Shift40A3SDKC5styleAA0A5StyleCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
               }
             ]
           },
@@ -6507,6 +6584,2102 @@
         "moduleName": "Shift4"
       },
       {
+        "kind": "TypeDecl",
+        "name": "Shift4Style",
+        "printedName": "Shift4Style",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Button",
+            "printedName": "Button",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "cornerRadius",
+                "printedName": "cornerRadius",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC6ButtonC12cornerRadius14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s6Shift40A5StyleC6ButtonC12cornerRadius12CoreGraphics7CGFloatVvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC6ButtonC12cornerRadius14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s6Shift40A5StyleC6ButtonC12cornerRadius12CoreGraphics7CGFloatVvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC6ButtonC12cornerRadius14CoreFoundation7CGFloatVvs",
+                    "mangledName": "$s6Shift40A5StyleC6ButtonC12cornerRadius12CoreGraphics7CGFloatVvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC6ButtonC12cornerRadius14CoreFoundation7CGFloatVvM",
+                    "mangledName": "$s6Shift40A5StyleC6ButtonC12cornerRadius12CoreGraphics7CGFloatVvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "height",
+                "printedName": "height",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC6ButtonC6height14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s6Shift40A5StyleC6ButtonC6height12CoreGraphics7CGFloatVvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC6ButtonC6height14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s6Shift40A5StyleC6ButtonC6height12CoreGraphics7CGFloatVvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC6ButtonC6height14CoreFoundation7CGFloatVvs",
+                    "mangledName": "$s6Shift40A5StyleC6ButtonC6height12CoreGraphics7CGFloatVvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC6ButtonC6height14CoreFoundation7CGFloatVvM",
+                    "mangledName": "$s6Shift40A5StyleC6ButtonC6height12CoreGraphics7CGFloatVvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "font",
+                "printedName": "font",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC6ButtonC4fontSo6UIFontCvp",
+                "mangledName": "$s6Shift40A5StyleC6ButtonC4fontSo6UIFontCvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC6ButtonC4fontSo6UIFontCvg",
+                    "mangledName": "$s6Shift40A5StyleC6ButtonC4fontSo6UIFontCvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC6ButtonC4fontSo6UIFontCvs",
+                    "mangledName": "$s6Shift40A5StyleC6ButtonC4fontSo6UIFontCvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC6ButtonC4fontSo6UIFontCvM",
+                    "mangledName": "$s6Shift40A5StyleC6ButtonC4fontSo6UIFontCvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Button",
+                    "printedName": "Shift4.Shift4Style.Button",
+                    "usr": "s:6Shift40A5StyleC6ButtonC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6Shift40A5StyleC6ButtonCAEycfc",
+                "mangledName": "$s6Shift40A5StyleC6ButtonCAEycfc",
+                "moduleName": "Shift4",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:6Shift40A5StyleC6ButtonC",
+            "mangledName": "$s6Shift40A5StyleC6ButtonC",
+            "moduleName": "Shift4",
+            "objc_name": "S4StyleButton",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Font",
+            "printedName": "Font",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "regularlabel",
+                "printedName": "regularlabel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC4FontC12regularlabelSo6UIFontCvp",
+                "mangledName": "$s6Shift40A5StyleC4FontC12regularlabelSo6UIFontCvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC12regularlabelSo6UIFontCvg",
+                    "mangledName": "$s6Shift40A5StyleC4FontC12regularlabelSo6UIFontCvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC12regularlabelSo6UIFontCvs",
+                    "mangledName": "$s6Shift40A5StyleC4FontC12regularlabelSo6UIFontCvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC12regularlabelSo6UIFontCvM",
+                    "mangledName": "$s6Shift40A5StyleC4FontC12regularlabelSo6UIFontCvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "label",
+                "printedName": "label",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC4FontC5labelSo6UIFontCvp",
+                "mangledName": "$s6Shift40A5StyleC4FontC5labelSo6UIFontCvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC5labelSo6UIFontCvg",
+                    "mangledName": "$s6Shift40A5StyleC4FontC5labelSo6UIFontCvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC5labelSo6UIFontCvs",
+                    "mangledName": "$s6Shift40A5StyleC4FontC5labelSo6UIFontCvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC5labelSo6UIFontCvM",
+                    "mangledName": "$s6Shift40A5StyleC4FontC5labelSo6UIFontCvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC4FontC5errorSo6UIFontCvp",
+                "mangledName": "$s6Shift40A5StyleC4FontC5errorSo6UIFontCvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC5errorSo6UIFontCvg",
+                    "mangledName": "$s6Shift40A5StyleC4FontC5errorSo6UIFontCvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC5errorSo6UIFontCvs",
+                    "mangledName": "$s6Shift40A5StyleC4FontC5errorSo6UIFontCvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC5errorSo6UIFontCvM",
+                    "mangledName": "$s6Shift40A5StyleC4FontC5errorSo6UIFontCvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "body",
+                "printedName": "body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC4FontC4bodySo6UIFontCvp",
+                "mangledName": "$s6Shift40A5StyleC4FontC4bodySo6UIFontCvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC4bodySo6UIFontCvg",
+                    "mangledName": "$s6Shift40A5StyleC4FontC4bodySo6UIFontCvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC4bodySo6UIFontCvs",
+                    "mangledName": "$s6Shift40A5StyleC4FontC4bodySo6UIFontCvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC4bodySo6UIFontCvM",
+                    "mangledName": "$s6Shift40A5StyleC4FontC4bodySo6UIFontCvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "tileLabel",
+                "printedName": "tileLabel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC4FontC9tileLabelSo6UIFontCvp",
+                "mangledName": "$s6Shift40A5StyleC4FontC9tileLabelSo6UIFontCvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC9tileLabelSo6UIFontCvg",
+                    "mangledName": "$s6Shift40A5StyleC4FontC9tileLabelSo6UIFontCvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC9tileLabelSo6UIFontCvs",
+                    "mangledName": "$s6Shift40A5StyleC4FontC9tileLabelSo6UIFontCvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC9tileLabelSo6UIFontCvM",
+                    "mangledName": "$s6Shift40A5StyleC4FontC9tileLabelSo6UIFontCvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "section",
+                "printedName": "section",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC4FontC7sectionSo6UIFontCvp",
+                "mangledName": "$s6Shift40A5StyleC4FontC7sectionSo6UIFontCvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC7sectionSo6UIFontCvg",
+                    "mangledName": "$s6Shift40A5StyleC4FontC7sectionSo6UIFontCvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC7sectionSo6UIFontCvs",
+                    "mangledName": "$s6Shift40A5StyleC4FontC7sectionSo6UIFontCvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC7sectionSo6UIFontCvM",
+                    "mangledName": "$s6Shift40A5StyleC4FontC7sectionSo6UIFontCvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "title",
+                "printedName": "title",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Shift40A5StyleC4FontC5titleSo6UIFontCvp",
+                "mangledName": "$s6Shift40A5StyleC4FontC5titleSo6UIFontCvp",
+                "moduleName": "Shift4",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC5titleSo6UIFontCvg",
+                    "mangledName": "$s6Shift40A5StyleC4FontC5titleSo6UIFontCvg",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC5titleSo6UIFontCvs",
+                    "mangledName": "$s6Shift40A5StyleC4FontC5titleSo6UIFontCvs",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Shift40A5StyleC4FontC5titleSo6UIFontCvM",
+                    "mangledName": "$s6Shift40A5StyleC4FontC5titleSo6UIFontCvM",
+                    "moduleName": "Shift4",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Font",
+                    "printedName": "Shift4.Shift4Style.Font",
+                    "usr": "s:6Shift40A5StyleC4FontC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6Shift40A5StyleC4FontCAEycfc",
+                "mangledName": "$s6Shift40A5StyleC4FontCAEycfc",
+                "moduleName": "Shift4",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:6Shift40A5StyleC4FontC",
+            "mangledName": "$s6Shift40A5StyleC4FontC",
+            "moduleName": "Shift4",
+            "objc_name": "S4StyleFont",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryColor",
+            "printedName": "primaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shift40A5StyleC12primaryColorSo7UIColorCvp",
+            "mangledName": "$s6Shift40A5StyleC12primaryColorSo7UIColorCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC12primaryColorSo7UIColorCvg",
+                "mangledName": "$s6Shift40A5StyleC12primaryColorSo7UIColorCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC12primaryColorSo7UIColorCvs",
+                "mangledName": "$s6Shift40A5StyleC12primaryColorSo7UIColorCvs",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC12primaryColorSo7UIColorCvM",
+                "mangledName": "$s6Shift40A5StyleC12primaryColorSo7UIColorCvM",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "successColor",
+            "printedName": "successColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shift40A5StyleC12successColorSo7UIColorCvp",
+            "mangledName": "$s6Shift40A5StyleC12successColorSo7UIColorCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC12successColorSo7UIColorCvg",
+                "mangledName": "$s6Shift40A5StyleC12successColorSo7UIColorCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC12successColorSo7UIColorCvs",
+                "mangledName": "$s6Shift40A5StyleC12successColorSo7UIColorCvs",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC12successColorSo7UIColorCvM",
+                "mangledName": "$s6Shift40A5StyleC12successColorSo7UIColorCvM",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorColor",
+            "printedName": "errorColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shift40A5StyleC10errorColorSo7UIColorCvp",
+            "mangledName": "$s6Shift40A5StyleC10errorColorSo7UIColorCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC10errorColorSo7UIColorCvg",
+                "mangledName": "$s6Shift40A5StyleC10errorColorSo7UIColorCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC10errorColorSo7UIColorCvs",
+                "mangledName": "$s6Shift40A5StyleC10errorColorSo7UIColorCvs",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC10errorColorSo7UIColorCvM",
+                "mangledName": "$s6Shift40A5StyleC10errorColorSo7UIColorCvM",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryTextColor",
+            "printedName": "primaryTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shift40A5StyleC16primaryTextColorSo7UIColorCvp",
+            "mangledName": "$s6Shift40A5StyleC16primaryTextColorSo7UIColorCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC16primaryTextColorSo7UIColorCvg",
+                "mangledName": "$s6Shift40A5StyleC16primaryTextColorSo7UIColorCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC16primaryTextColorSo7UIColorCvs",
+                "mangledName": "$s6Shift40A5StyleC16primaryTextColorSo7UIColorCvs",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC16primaryTextColorSo7UIColorCvM",
+                "mangledName": "$s6Shift40A5StyleC16primaryTextColorSo7UIColorCvM",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "placeholderColor",
+            "printedName": "placeholderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shift40A5StyleC16placeholderColorSo7UIColorCvp",
+            "mangledName": "$s6Shift40A5StyleC16placeholderColorSo7UIColorCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC16placeholderColorSo7UIColorCvg",
+                "mangledName": "$s6Shift40A5StyleC16placeholderColorSo7UIColorCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC16placeholderColorSo7UIColorCvs",
+                "mangledName": "$s6Shift40A5StyleC16placeholderColorSo7UIColorCvs",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC16placeholderColorSo7UIColorCvM",
+                "mangledName": "$s6Shift40A5StyleC16placeholderColorSo7UIColorCvM",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disabledColor",
+            "printedName": "disabledColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shift40A5StyleC13disabledColorSo7UIColorCvp",
+            "mangledName": "$s6Shift40A5StyleC13disabledColorSo7UIColorCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC13disabledColorSo7UIColorCvg",
+                "mangledName": "$s6Shift40A5StyleC13disabledColorSo7UIColorCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC13disabledColorSo7UIColorCvs",
+                "mangledName": "$s6Shift40A5StyleC13disabledColorSo7UIColorCvs",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC13disabledColorSo7UIColorCvM",
+                "mangledName": "$s6Shift40A5StyleC13disabledColorSo7UIColorCvM",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "separatorColor",
+            "printedName": "separatorColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shift40A5StyleC14separatorColorSo7UIColorCvp",
+            "mangledName": "$s6Shift40A5StyleC14separatorColorSo7UIColorCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC14separatorColorSo7UIColorCvg",
+                "mangledName": "$s6Shift40A5StyleC14separatorColorSo7UIColorCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC14separatorColorSo7UIColorCvs",
+                "mangledName": "$s6Shift40A5StyleC14separatorColorSo7UIColorCvs",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC14separatorColorSo7UIColorCvM",
+                "mangledName": "$s6Shift40A5StyleC14separatorColorSo7UIColorCvM",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "button",
+            "printedName": "button",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Button",
+                "printedName": "Shift4.Shift4Style.Button",
+                "usr": "s:6Shift40A5StyleC6ButtonC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shift40A5StyleC6buttonAC6ButtonCvp",
+            "mangledName": "$s6Shift40A5StyleC6buttonAC6ButtonCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Button",
+                    "printedName": "Shift4.Shift4Style.Button",
+                    "usr": "s:6Shift40A5StyleC6ButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC6buttonAC6ButtonCvg",
+                "mangledName": "$s6Shift40A5StyleC6buttonAC6ButtonCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Button",
+                    "printedName": "Shift4.Shift4Style.Button",
+                    "usr": "s:6Shift40A5StyleC6ButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC6buttonAC6ButtonCvs",
+                "mangledName": "$s6Shift40A5StyleC6buttonAC6ButtonCvs",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC6buttonAC6ButtonCvM",
+                "mangledName": "$s6Shift40A5StyleC6buttonAC6ButtonCvM",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "font",
+            "printedName": "font",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Font",
+                "printedName": "Shift4.Shift4Style.Font",
+                "usr": "s:6Shift40A5StyleC4FontC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Shift40A5StyleC4fontAC4FontCvp",
+            "mangledName": "$s6Shift40A5StyleC4fontAC4FontCvp",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Font",
+                    "printedName": "Shift4.Shift4Style.Font",
+                    "usr": "s:6Shift40A5StyleC4FontC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC4fontAC4FontCvg",
+                "mangledName": "$s6Shift40A5StyleC4fontAC4FontCvg",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Font",
+                    "printedName": "Shift4.Shift4Style.Font",
+                    "usr": "s:6Shift40A5StyleC4FontC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC4fontAC4FontCvs",
+                "mangledName": "$s6Shift40A5StyleC4fontAC4FontCvs",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Shift40A5StyleC4fontAC4FontCvM",
+                "mangledName": "$s6Shift40A5StyleC4fontAC4FontCvM",
+                "moduleName": "Shift4",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Shift4@objc(cs)S4Style",
+        "mangledName": "$s6Shift40A5StyleC",
+        "moduleName": "Shift4",
+        "objc_name": "S4Style",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -6894,7 +9067,7 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Button.swift",
       "kind": "BooleanLiteral",
-      "offset": 1419,
+      "offset": 1633,
       "length": 4,
       "value": "true"
     },
@@ -7006,21 +9179,21 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 986,
+      "offset": 1031,
       "length": 11,
       "value": "0x61000000"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 1045,
+      "offset": 1091,
       "length": 11,
       "value": "0x99000000"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/Style.swift",
       "kind": "IntegerLiteral",
-      "offset": 1103,
+      "offset": 1149,
       "length": 11,
       "value": "0x29000000"
     },
@@ -7340,6 +9513,13 @@
       "value": "\"Shift4.Shift4Error\""
     },
     {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Card.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 4,
+      "value": "\"Shift4.Card\""
+    },
+    {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "BooleanLiteral",
       "offset": 1334,
@@ -7356,98 +9536,98 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 1920,
+      "offset": 1941,
       "length": 21,
       "value": "\"same_address_switch\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2091,
+      "offset": 2117,
       "length": 10,
       "value": "\"shipping\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2390,
+      "offset": 2500,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2607,
+      "offset": 2744,
       "length": 8,
       "value": "\"street\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2820,
+      "offset": 2984,
       "length": 5,
       "value": "\"zip\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3032,
+      "offset": 3223,
       "length": 6,
       "value": "\"city\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3251,
+      "offset": 3469,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3433,
+      "offset": 3661,
       "length": 9,
       "value": "\"billing\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3727,
+      "offset": 4038,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3942,
+      "offset": 4280,
       "length": 8,
       "value": "\"street\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4153,
+      "offset": 4518,
       "length": 5,
       "value": "\"zip\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4363,
+      "offset": 4755,
       "length": 6,
       "value": "\"city\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4580,
+      "offset": 4999,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/AddressComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4792,
+      "offset": 5238,
       "length": 5,
       "value": "\"vat\""
     },
@@ -7510,35 +9690,35 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Checkout\/CheckoutManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 251,
+      "offset": 387,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Checkout\/CheckoutManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10074,
+      "offset": 10556,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4.swift",
       "kind": "BooleanLiteral",
-      "offset": 348,
+      "offset": 334,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4.swift",
       "kind": "BooleanLiteral",
-      "offset": 705,
+      "offset": 773,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4.swift",
       "kind": "BooleanLiteral",
-      "offset": 750,
+      "offset": 818,
       "length": 5,
       "value": "false"
     },
@@ -7566,35 +9746,35 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
-      "offset": 265,
+      "offset": 292,
       "length": 13,
       "value": "\"card_number\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 381,
       "length": 14,
       "value": "\"Card_Default\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 616,
       "length": 12,
       "value": "\"expiration\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 869,
       "length": 5,
       "value": "\"cvc\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/CardComponent.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 950,
       "length": 10,
       "value": "\"Card_CVV\""
     },
@@ -7762,7 +9942,7 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/Component\/EmailComponent.swift",
       "kind": "StringLiteral",
-      "offset": 247,
+      "offset": 274,
       "length": 7,
       "value": "\"email\""
     },
@@ -7860,77 +10040,77 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1513,
+      "offset": 1613,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1622,
+      "offset": 1721,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1657,
+      "offset": 1756,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1899,
+      "offset": 2003,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2023,
+      "offset": 2143,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2067,
+      "offset": 2187,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2519,
+      "offset": 2734,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2953,
+      "offset": 3168,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7958,
+      "offset": 8315,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19371,
+      "offset": 19780,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22141,
+      "offset": 22554,
       "length": 4,
       "value": "true"
     },
@@ -8154,42 +10334,42 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
       "kind": "BooleanLiteral",
-      "offset": 584,
+      "offset": 589,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
       "kind": "IntegerLiteral",
-      "offset": 690,
+      "offset": 711,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
       "kind": "BooleanLiteral",
-      "offset": 833,
+      "offset": 859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
       "kind": "IntegerLiteral",
-      "offset": 960,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
-      "kind": "BooleanLiteral",
       "offset": 986,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1012,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Switch.swift",
       "kind": "BooleanLiteral",
-      "offset": 1146,
+      "offset": 1172,
       "length": 5,
       "value": "false"
     },
@@ -8245,107 +10425,9 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/SMSCodeTextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 3380,
+      "offset": 3538,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "StringLiteral",
-      "offset": 1001,
-      "length": 14,
-      "value": "\"Lato-Regular\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "FloatLiteral",
-      "offset": 1061,
-      "length": 4,
-      "value": "14.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "StringLiteral",
-      "offset": 1310,
-      "length": 11,
-      "value": "\"Lato-Bold\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "FloatLiteral",
-      "offset": 1367,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "StringLiteral",
-      "offset": 1628,
-      "length": 17,
-      "value": "\"Montserrat-Bold\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "FloatLiteral",
-      "offset": 1691,
-      "length": 4,
-      "value": "24.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "StringLiteral",
-      "offset": 2016,
-      "length": 14,
-      "value": "\"Lato-Regular\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "FloatLiteral",
-      "offset": 2076,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "StringLiteral",
-      "offset": 2593,
-      "length": 14,
-      "value": "\"Lato-Regular\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "FloatLiteral",
-      "offset": 2653,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "StringLiteral",
-      "offset": 2906,
-      "length": 14,
-      "value": "\"Lato-Regular\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "FloatLiteral",
-      "offset": 2966,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "StringLiteral",
-      "offset": 3259,
-      "length": 14,
-      "value": "\"Lato-Regular\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Shift4Style.swift",
-      "kind": "FloatLiteral",
-      "offset": 3319,
-      "length": 4,
-      "value": "16.0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/TokenRequest.swift",

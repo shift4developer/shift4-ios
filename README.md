@@ -92,15 +92,15 @@ Framework also requires you to specify Bundle Identifier of application. This sh
 ##### Swift
 
 ```swift
-Shift4.shared.publicKey = "pk_test_..."
-Shift4.shared.bundleIdentifier = "..."
+Shift4SDK.shared.publicKey = "pk_test_..."
+Shift4SDK.shared.bundleIdentifier = "..."
 ```
 
 ##### Objective-C
 
 ```objective-c
-Shift4.shared.publicKey = @"pk_test_...";
-Shift4.shared.bundleIdentifier = @"";
+Shift4SDK.shared.publicKey = @"pk_test_...";
+Shift4SDK.shared.bundleIdentifier = @"";
 ```
 
 ### Checkout View Controller
@@ -113,7 +113,7 @@ To present Checkout View Controller you need to create Checkout Request on your 
 
 ```swift
 let checkoutRequest = ...
-Shift4.shared.showCheckoutViewController(
+Shift4SDK.shared.showCheckoutViewController(
     in: self,
     checkoutRequest: checkoutRequest) { [weak self] result, error in
         if let result = result {
@@ -152,7 +152,7 @@ Checkout View Controller has a feature allowing to remember cards used before. T
 ##### Swift
 
 ```swift
-Shift4.shared.cleanSavedCards()
+Shift4SDK.shared.cleanSavedCards()
 ```
 
 ##### Objective-C
@@ -191,12 +191,12 @@ let request = TokenRequest(
     cvc: "123"
 )
 
-Shift4.shared.createToken(with: request) { token, error in
+Shift4SDK.shared.createToken(with: request) { token, error in
     guard let self = self else { return }
     guard let navController = self.navigationController else { return }
     guard let token = token else { print(error); return }
 
-    Shift4.shared.authenticate(token: token, amount: 10000, currency: "EUR", navigationControllerFor3DS: navController) { [weak self] authenticatedToken, authenticationError in
+    Shift4SDK.shared.authenticate(token: token, amount: 10000, currency: "EUR", navigationControllerFor3DS: navController) { [weak self] authenticatedToken, authenticationError in
         print(authenticatedToken)      
         print(authenticationError)                                                                                                     
     }
@@ -215,11 +215,11 @@ let request = TokenRequest(
     cvc: "123"
 )
 
-Shift4.shared.createToken(with: request) { token, error in
+Shift4SDK.shared.createToken(with: request) { token, error in
     guard let self = self else { return }
     guard let token = token else { print(error); return }
 
-    Shift4.shared.authenticate(token: token, amount: 10000, currency: "EUR", viewControllerPresenting3DS: self) { [weak self] authenticatedToken, authenticationError in
+    Shift4SDK.shared.authenticate(token: token, amount: 10000, currency: "EUR", viewControllerPresenting3DS: self) { [weak self] authenticatedToken, authenticationError in
         print(authenticatedToken)      
         print(authenticationError)                                                                                                     
     }
@@ -248,6 +248,65 @@ Shift4.shared.createToken(with: request) { token, error in
 | .threeDSecure | .integrityTampered | "The integrity of the SDK has been tampered."          |                                                              |
 | .threeDSecure | .simulator         | "An emulator is being used to run the app."            |                                                              |
 | .threeDSecure | .osNotSupported    | "The OS or the OS version is not supported."           |                                                              |
+
+## Customization
+
+Interface elements such as fonts, colors and sizes can be freely modified using an object returned from `Shift4SDK.shared.style`. Code example below.
+
+```swift
+let style = Shift4SDK.shared.style
+
+style.primaryColor = .blue
+style.successColor = .green
+style.errorColor = .red
+        
+style.primaryTextColor = .black
+style.placeholderColor = .gray
+style.disabledColor = .gray
+style.separatorColor = .gray
+        
+style.button.font = UIFont.boldSystemFont(ofSize: 10)
+style.button.height = 60.0
+style.button.cornerRadius = 5.0
+        
+style.font.regularlabel = UIFont.systemFont(ofSize: 10)
+style.font.title = UIFont.systemFont(ofSize: 10)
+style.font.section = UIFont.systemFont(ofSize: 10)
+style.font.body = UIFont.systemFont(ofSize: 10)
+style.font.label = UIFont.systemFont(ofSize: 10)
+style.font.error = UIFont.systemFont(ofSize: 10)
+style.font.tileLabel = UIFont.systemFont(ofSize: 20)
+```
+
+#### primaryColor
+Main brand color used for buttons and switches.
+
+#### successColor
+Color of button after successful payment.
+
+#### errorColor
+Color used for error messages.
+
+#### primaryTextColor
+Color used for all titles, sections and other labels.
+
+#### placeholderColor
+Color for placeholders of text inputs.
+
+#### disabledColor
+Color of disabled elements, for example button is disabled when text inputs are empty.
+
+#### separatorColor
+Color of separators between sections and other elements responsible for a page structure.
+
+#### button.font
+Font style of a button's title.
+
+#### button.height
+Height of buttons.
+
+#### button.cornerRadius
+Corner radius of buttons. Use 0 if you want your buttons to be rectangles.
 
 ## Testing
 

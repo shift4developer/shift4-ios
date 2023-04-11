@@ -261,6 +261,8 @@ SWIFT_CLASS_NAMED("Card")
 @property (nonatomic, readonly, copy) NSString * _Nullable last4;
 @property (nonatomic, readonly, copy) NSString * _Nonnull brand;
 @property (nonatomic, readonly, strong) S4CardExpiration * _Nullable expiration;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -311,6 +313,7 @@ SWIFT_CLASS_NAMED("Shift4Error")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class S4Style;
 @class UIViewController;
 @class UIImage;
 @class S4TokenRequest;
@@ -323,6 +326,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Shift4SDK * 
 + (Shift4SDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, copy) NSString * _Nullable publicKey;
 @property (nonatomic, copy) NSString * _Nullable bundleIdentifier;
+@property (nonatomic, readonly, strong) S4Style * _Nonnull style;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)showCheckoutViewControllerIn:(UIViewController * _Nonnull)viewController checkoutRequest:(S4CheckoutRequest * _Nonnull)checkoutRequest merchantName:(NSString * _Nonnull)merchantName description:(NSString * _Nonnull)description merchantLogo:(UIImage * _Nullable)merchantLogo collectShippingAddress:(BOOL)collectShippingAddress collectBillingAddress:(BOOL)collectBillingAddress email:(NSString * _Nullable)email completion:(void (^ _Nonnull)(S4PaymentResult * _Nullable, S4Error * _Nullable))completion;
@@ -330,6 +334,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Shift4SDK * 
 - (void)createTokenWith:(S4TokenRequest * _Nonnull)request completion:(void (^ _Nonnull)(S4Token * _Nullable, S4Error * _Nullable))completion;
 - (void)authenticateWithToken:(S4Token * _Nonnull)token amount:(NSInteger)amount currency:(NSString * _Nonnull)currency navigationControllerFor3DS:(UINavigationController * _Nonnull)navigationControllerFor3DS completion:(void (^ _Nonnull)(S4Token * _Nullable, S4Error * _Nullable))completion;
 - (void)authenticateWithToken:(S4Token * _Nonnull)token amount:(NSInteger)amount currency:(NSString * _Nonnull)currency viewControllerPresenting3DS:(UIViewController * _Nonnull)viewControllerPresenting3DS completion:(void (^ _Nonnull)(S4Token * _Nullable, S4Error * _Nullable))completion;
+@end
+
+
+SWIFT_CLASS_NAMED("Shift4Style")
+@interface S4Style : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("Button")
+@interface S4StyleButton : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("Font")
+@interface S4StyleFont : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -643,6 +666,8 @@ SWIFT_CLASS_NAMED("Card")
 @property (nonatomic, readonly, copy) NSString * _Nullable last4;
 @property (nonatomic, readonly, copy) NSString * _Nonnull brand;
 @property (nonatomic, readonly, strong) S4CardExpiration * _Nullable expiration;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -693,6 +718,7 @@ SWIFT_CLASS_NAMED("Shift4Error")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class S4Style;
 @class UIViewController;
 @class UIImage;
 @class S4TokenRequest;
@@ -705,6 +731,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Shift4SDK * 
 + (Shift4SDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, copy) NSString * _Nullable publicKey;
 @property (nonatomic, copy) NSString * _Nullable bundleIdentifier;
+@property (nonatomic, readonly, strong) S4Style * _Nonnull style;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)showCheckoutViewControllerIn:(UIViewController * _Nonnull)viewController checkoutRequest:(S4CheckoutRequest * _Nonnull)checkoutRequest merchantName:(NSString * _Nonnull)merchantName description:(NSString * _Nonnull)description merchantLogo:(UIImage * _Nullable)merchantLogo collectShippingAddress:(BOOL)collectShippingAddress collectBillingAddress:(BOOL)collectBillingAddress email:(NSString * _Nullable)email completion:(void (^ _Nonnull)(S4PaymentResult * _Nullable, S4Error * _Nullable))completion;
@@ -712,6 +739,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Shift4SDK * 
 - (void)createTokenWith:(S4TokenRequest * _Nonnull)request completion:(void (^ _Nonnull)(S4Token * _Nullable, S4Error * _Nullable))completion;
 - (void)authenticateWithToken:(S4Token * _Nonnull)token amount:(NSInteger)amount currency:(NSString * _Nonnull)currency navigationControllerFor3DS:(UINavigationController * _Nonnull)navigationControllerFor3DS completion:(void (^ _Nonnull)(S4Token * _Nullable, S4Error * _Nullable))completion;
 - (void)authenticateWithToken:(S4Token * _Nonnull)token amount:(NSInteger)amount currency:(NSString * _Nonnull)currency viewControllerPresenting3DS:(UIViewController * _Nonnull)viewControllerPresenting3DS completion:(void (^ _Nonnull)(S4Token * _Nullable, S4Error * _Nullable))completion;
+@end
+
+
+SWIFT_CLASS_NAMED("Shift4Style")
+@interface S4Style : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("Button")
+@interface S4StyleButton : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("Font")
+@interface S4StyleFont : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

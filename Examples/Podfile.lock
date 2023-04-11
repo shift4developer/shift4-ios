@@ -1,5 +1,5 @@
 PODS:
-  - Shift4 (1.1.5)
+  - Shift4 (1.1.6)
   - SwiftLint (0.41.0)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  Shift4: 1bfb55f0b8f83777a218d4bab4825422e0420ccb
+  Shift4: a405065b2efbbcce90c945b5dbfcd4bc1d137411
   SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
 
 PODFILE CHECKSUM: 8b9e4ac3232f31c1b2a8825230faeb1ee00fc6d2

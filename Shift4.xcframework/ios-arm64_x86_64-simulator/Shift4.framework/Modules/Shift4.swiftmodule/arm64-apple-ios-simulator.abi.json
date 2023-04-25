@@ -2214,6 +2214,43 @@
               },
               {
                 "kind": "Var",
+                "name": "timeout",
+                "printedName": "timeout",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Shift4.Shift4Error.ErrorCode.Type) -> Shift4.Shift4Error.ErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "Shift4.Shift4Error.ErrorCode",
+                        "usr": "s:6Shift40A5ErrorC0B4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Shift4.Shift4Error.ErrorCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorCode",
+                            "printedName": "Shift4.Shift4Error.ErrorCode",
+                            "usr": "s:6Shift40A5ErrorC0B4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Shift40A5ErrorC0B4CodeO7timeoutyA2EmF",
+                "mangledName": "$s6Shift40A5ErrorC0B4CodeO7timeoutyA2EmF",
+                "moduleName": "Shift4"
+              },
+              {
+                "kind": "Var",
                 "name": "anotherOperation",
                 "printedName": "anotherOperation",
                 "children": [
@@ -9697,7 +9734,7 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Checkout\/CheckoutManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10556,
+      "offset": 10588,
       "length": 5,
       "value": "false"
     },
@@ -10103,14 +10140,14 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19780,
+      "offset": 19373,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22554,
+      "offset": 22147,
       "length": 4,
       "value": "true"
     },

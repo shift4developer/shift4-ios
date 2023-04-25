@@ -68,6 +68,7 @@ import ipworks3ds_sdk
     case integrityTampered
     case simulator
     case osNotSupported
+    case timeout
     case anotherOperation
     case unknown
     public init(from decoder: Swift.Decoder) throws

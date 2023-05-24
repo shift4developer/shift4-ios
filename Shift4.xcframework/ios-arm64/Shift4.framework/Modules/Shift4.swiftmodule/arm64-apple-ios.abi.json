@@ -778,6 +778,13 @@
         "moduleName": "Shift4"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shift4"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Shift4Error",
         "printedName": "Shift4Error",
@@ -933,6 +940,43 @@
                 "declKind": "EnumElement",
                 "usr": "s:6Shift40A5ErrorC0B4TypeO23invalidVerificationCodeyA2EmF",
                 "mangledName": "$s6Shift40A5ErrorC0B4TypeO23invalidVerificationCodeyA2EmF",
+                "moduleName": "Shift4"
+              },
+              {
+                "kind": "Var",
+                "name": "network",
+                "printedName": "network",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Shift4.Shift4Error.ErrorType.Type) -> Shift4.Shift4Error.ErrorType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "Shift4.Shift4Error.ErrorType",
+                        "usr": "s:6Shift40A5ErrorC0B4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Shift4.Shift4Error.ErrorType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorType",
+                            "printedName": "Shift4.Shift4Error.ErrorType",
+                            "usr": "s:6Shift40A5ErrorC0B4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Shift40A5ErrorC0B4TypeO7networkyA2EmF",
+                "mangledName": "$s6Shift40A5ErrorC0B4TypeO7networkyA2EmF",
                 "moduleName": "Shift4"
               },
               {
@@ -2247,6 +2291,117 @@
                 "declKind": "EnumElement",
                 "usr": "s:6Shift40A5ErrorC0B4CodeO7timeoutyA2EmF",
                 "mangledName": "$s6Shift40A5ErrorC0B4CodeO7timeoutyA2EmF",
+                "moduleName": "Shift4"
+              },
+              {
+                "kind": "Var",
+                "name": "requestTimedOut",
+                "printedName": "requestTimedOut",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Shift4.Shift4Error.ErrorCode.Type) -> Shift4.Shift4Error.ErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "Shift4.Shift4Error.ErrorCode",
+                        "usr": "s:6Shift40A5ErrorC0B4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Shift4.Shift4Error.ErrorCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorCode",
+                            "printedName": "Shift4.Shift4Error.ErrorCode",
+                            "usr": "s:6Shift40A5ErrorC0B4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Shift40A5ErrorC0B4CodeO15requestTimedOutyA2EmF",
+                "mangledName": "$s6Shift40A5ErrorC0B4CodeO15requestTimedOutyA2EmF",
+                "moduleName": "Shift4"
+              },
+              {
+                "kind": "Var",
+                "name": "poorConnection",
+                "printedName": "poorConnection",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Shift4.Shift4Error.ErrorCode.Type) -> Shift4.Shift4Error.ErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "Shift4.Shift4Error.ErrorCode",
+                        "usr": "s:6Shift40A5ErrorC0B4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Shift4.Shift4Error.ErrorCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorCode",
+                            "printedName": "Shift4.Shift4Error.ErrorCode",
+                            "usr": "s:6Shift40A5ErrorC0B4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Shift40A5ErrorC0B4CodeO14poorConnectionyA2EmF",
+                "mangledName": "$s6Shift40A5ErrorC0B4CodeO14poorConnectionyA2EmF",
+                "moduleName": "Shift4"
+              },
+              {
+                "kind": "Var",
+                "name": "unknownConnectionError",
+                "printedName": "unknownConnectionError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Shift4.Shift4Error.ErrorCode.Type) -> Shift4.Shift4Error.ErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "Shift4.Shift4Error.ErrorCode",
+                        "usr": "s:6Shift40A5ErrorC0B4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Shift4.Shift4Error.ErrorCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorCode",
+                            "printedName": "Shift4.Shift4Error.ErrorCode",
+                            "usr": "s:6Shift40A5ErrorC0B4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Shift40A5ErrorC0B4CodeO017unknownConnectionB0yA2EmF",
+                "mangledName": "$s6Shift40A5ErrorC0B4CodeO017unknownConnectionB0yA2EmF",
                 "moduleName": "Shift4"
               },
               {
@@ -9237,315 +9392,357 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 183,
+      "offset": 196,
       "length": 17,
       "value": "\"invalid_request\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 226,
+      "offset": 239,
       "length": 12,
       "value": "\"card_error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 280,
       "length": 15,
       "value": "\"gateway_error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 335,
       "length": 27,
       "value": "\"invalid-verification-code\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 183,
+      "offset": 196,
       "length": 17,
       "value": "\"invalid_request\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 226,
+      "offset": 239,
       "length": 12,
       "value": "\"card_error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 280,
       "length": 15,
       "value": "\"gateway_error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 335,
       "length": 27,
       "value": "\"invalid-verification-code\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 697,
       "length": 16,
       "value": "\"invalid_number\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 714,
+      "offset": 748,
       "length": 22,
       "value": "\"invalid_expiry_month\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 770,
+      "offset": 804,
       "length": 21,
       "value": "\"invalid_expiry_year\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 852,
       "length": 13,
       "value": "\"invalid_cvc\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 894,
       "length": 15,
       "value": "\"incorrect_cvc\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 904,
+      "offset": 938,
       "length": 15,
       "value": "\"incorrect_zip\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 947,
+      "offset": 981,
       "length": 14,
       "value": "\"expired_card\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 995,
+      "offset": 1029,
       "length": 20,
       "value": "\"insufficient_funds\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1044,
+      "offset": 1078,
       "length": 16,
       "value": "\"lost_or_stolen\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1125,
       "length": 17,
       "value": "\"suspected_fraud\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1171,
       "length": 15,
       "value": "\"card_declined\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 1218,
       "length": 18,
       "value": "\"processing_error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1256,
+      "offset": 1290,
       "length": 15,
       "value": "\"expired_token\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
+      "offset": 1335,
       "length": 16,
       "value": "\"limit_exceeded\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1357,
+      "offset": 1391,
       "length": 27,
       "value": "\"verification_code_invalid\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1425,
+      "offset": 1459,
       "length": 28,
       "value": "\"verification_code_required\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1576,
+      "offset": 1610,
       "length": 25,
       "value": "\"authentication_required\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1630,
+      "offset": 1664,
       "length": 15,
       "value": "\"invalid_email\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 1913,
+      "length": 18,
+      "value": "\"request_timedout\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "kind": "StringLiteral",
+      "offset": 1962,
+      "length": 17,
+      "value": "\"poor_connection\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "kind": "StringLiteral",
+      "offset": 2018,
+      "length": 26,
+      "value": "\"unknown_connection_error\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
       "length": 16,
       "value": "\"invalid_number\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 714,
+      "offset": 748,
       "length": 22,
       "value": "\"invalid_expiry_month\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 770,
+      "offset": 804,
       "length": 21,
       "value": "\"invalid_expiry_year\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 852,
       "length": 13,
       "value": "\"invalid_cvc\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 894,
       "length": 15,
       "value": "\"incorrect_cvc\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 904,
+      "offset": 938,
       "length": 15,
       "value": "\"incorrect_zip\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 947,
+      "offset": 981,
       "length": 14,
       "value": "\"expired_card\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 995,
+      "offset": 1029,
       "length": 20,
       "value": "\"insufficient_funds\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1044,
+      "offset": 1078,
       "length": 16,
       "value": "\"lost_or_stolen\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1125,
       "length": 17,
       "value": "\"suspected_fraud\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1171,
       "length": 15,
       "value": "\"card_declined\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 1218,
       "length": 18,
       "value": "\"processing_error\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1256,
+      "offset": 1290,
       "length": 15,
       "value": "\"expired_token\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
+      "offset": 1335,
       "length": 16,
       "value": "\"limit_exceeded\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1357,
+      "offset": 1391,
       "length": 27,
       "value": "\"verification_code_invalid\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1425,
+      "offset": 1459,
       "length": 28,
       "value": "\"verification_code_required\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1576,
+      "offset": 1610,
       "length": 25,
       "value": "\"authentication_required\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 1630,
+      "offset": 1664,
       "length": 15,
       "value": "\"invalid_email\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
       "kind": "StringLiteral",
-      "offset": 75,
+      "offset": 1913,
+      "length": 18,
+      "value": "\"request_timedout\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "kind": "StringLiteral",
+      "offset": 1962,
+      "length": 17,
+      "value": "\"poor_connection\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "kind": "StringLiteral",
+      "offset": 2018,
+      "length": 26,
+      "value": "\"unknown_connection_error\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/Shift4Error.swift",
+      "kind": "StringLiteral",
+      "offset": 88,
       "length": 11,
       "value": "\"Shift4.Shift4Error\""
     },
@@ -9704,6 +9901,20 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/ExpirationDateFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 7,
+      "value": "\"MM\/YY\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Helpers\/ExpirationDateFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 9,
+      "value": "\"MM\/YYYY\""
+    },
+    {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/CardCarousel.swift",
       "kind": "Array",
       "offset": 199,
@@ -9734,7 +9945,7 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Checkout\/CheckoutManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10588,
+      "offset": 10229,
       "length": 5,
       "value": "false"
     },
@@ -10140,14 +10351,14 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19373,
+      "offset": 19393,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/CheckoutViewController\/CheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22147,
+      "offset": 22167,
       "length": 4,
       "value": "true"
     },

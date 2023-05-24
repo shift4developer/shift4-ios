@@ -30,6 +30,7 @@ import ipworks3ds_sdk
     case cardError
     case gatewayError
     case invalidVerificationCode
+    case network
     case unknown
     case sdk
     case threeDSecure
@@ -69,6 +70,9 @@ import ipworks3ds_sdk
     case simulator
     case osNotSupported
     case timeout
+    case requestTimedOut
+    case poorConnection
+    case unknownConnectionError
     case anotherOperation
     case unknown
     public init(from decoder: Swift.Decoder) throws

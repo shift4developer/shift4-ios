@@ -63,7 +63,7 @@ Next you need to install the Framework using Cocoapods. Add the following entry 
 ```ruby
 pod 'Shift4'
 ```
-Then run `pod install`.
+Then run `pod install --repo-update`.
 
 Do not forget to import the framework at the beginning of any file you'd like to use Shift4 in.
 

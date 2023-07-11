@@ -177,33 +177,7 @@ Shift4SDK.shared.cleanSavedCards()
 
 ### Custom Form
 
-SDK allows user to present 3DS authentication screen or to push it into UINavigationController stack.
-
-#### UINavigationController based app
-
-##### Swift
-
-```swift
-let request = TokenRequest(
-    number: "4242424242424242",
-    expirationMonth: "10",
-    expirationYear: "2023",
-    cvc: "123"
-)
-
-Shift4SDK.shared.createToken(with: request) { token, error in
-    guard let self = self else { return }
-    guard let navController = self.navigationController else { return }
-    guard let token = token else { print(error); return }
-
-    Shift4SDK.shared.authenticate(token: token, amount: 10000, currency: "EUR", navigationControllerFor3DS: navController) { [weak self] authenticatedToken, authenticationError in
-        print(authenticatedToken)      
-        print(authenticationError)                                                                                                     
-    }
-}
-```
-
-#### Presenting 3DS screen as a dialog
+SDK allows user to present 3DS authentication screen as a modal dialog.
 
 ##### Swift
 
@@ -248,6 +222,73 @@ Shift4SDK.shared.createToken(with: request) { token, error in
 | .threeDSecure | .integrityTampered | "The integrity of the SDK has been tampered."          |                                                              |
 | .threeDSecure | .simulator         | "An emulator is being used to run the app."            |                                                              |
 | .threeDSecure | .osNotSupported    | "The OS or the OS version is not supported."           |                                                              |
+
+## Flutter
+
+The SDK is created in native technologies, but since Flutter allows you to use native components, integrating the library on this platform is possible, but requires a few additional steps.
+
+At first that, open the Xcode project file located in the /ios subdirectory in the main project directory. Then perform the configuration described in the Installation section. Don't forget to request the 3D-Secure library, without which you won't compile the project, and which we can't publish on github for licensing reasons. You will get it by contacting devsupport@shift4.com.
+
+In the native iOS code in AppDelegate.swift create the function:
+
+```swift
+private func performCheckout(result: @escaping FlutterResult) {
+    let checkoutRequest = CheckoutRequest(content: "...")
+    Shift4SDK.shared.publicKey = "pk_test_..."
+    Shift4SDK.shared.bundleIdentifier = "com.example.app"
+    Shift4SDK.shared.showCheckoutViewController(in: (window?.rootViewController)!, checkoutRequest: checkoutRequest, merchantName: "Example merchant", description: "Example payment") { paymentResult, paymentError in
+        if let paymentResult {
+            result(paymentResult.dictionary())
+        } else if let paymentError {
+            result(paymentError.dictionary())
+        } else {
+            // Cancelled
+        }
+    }
+}
+```
+
+In the didFinishLaunching function add the following lines:
+
+```swift
+let controller : FlutterViewController = window?.rootViewController as! FlutterViewController
+let checkoutChannel = FlutterMethodChannel(name: "com.example/checkout", binaryMessenger: controller.binaryMessenger)
+        
+checkoutChannel.setMethodCallHandler({ [weak self] (call: FlutterMethodCall, result: @escaping FlutterResult) -> Void in
+    guard call.method == "checkout" else {
+        result(FlutterMethodNotImplemented)
+        return
+    }
+    self?.performCheckout(result: result)
+})
+```
+
+Remember to provide the appropriate publicKey and checkoutRequest.
+
+In the State of your application add the lines:
+
+```dart
+static const platform = MethodChannel('com.example/checkout');
+
+Future<void> _checkout() async {
+  try {
+    final Map result = await platform.invokeMethod('checkout');
+    print(result);
+  } on PlatformException catch (e) {
+    print(e);
+  }
+}
+```
+
+And execute the created function somewhere, such as creating a button:
+
+```dart
+TextButton(
+    onPressed: _checkout, 
+    child: const Text('Hello Shift4!')),
+```
+
+That's it. You can launch your app.
 
 ## Customization
 

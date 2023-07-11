@@ -125,6 +125,32 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Customer",
+                "printedName": "Shift4.Customer",
+                "usr": "c:@M@Shift4@objc(cs)S4Customer"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Shift4@objc(cs)S4Customer(im)init",
+            "mangledName": "$s6Shift48CustomerCACycfc",
+            "moduleName": "Shift4",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -187,6 +213,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -524,6 +551,40 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "dictionary",
+            "printedName": "dictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Shift413PaymentResultC10dictionarySDySSypGyF",
+            "mangledName": "$s6Shift413PaymentResultC10dictionarySDySSypGyF",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -2660,6 +2721,41 @@
               "Final",
               "AccessControl",
               "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dictionary",
+            "printedName": "dictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Shift40A5ErrorC10dictionarySDySSypGyF",
+            "mangledName": "$s6Shift40A5ErrorC10dictionarySDySSypGyF",
+            "moduleName": "Shift4",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -9147,7 +9243,14 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/PaymentResult.swift",
       "kind": "StringLiteral",
-      "offset": 151,
+      "offset": 50,
+      "length": 8,
+      "value": "\"Shift4.Customer\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Model\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
       "length": 13,
       "value": "\"Shift4.PaymentResult\""
     },

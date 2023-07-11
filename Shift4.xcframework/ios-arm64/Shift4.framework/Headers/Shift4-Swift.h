@@ -285,6 +285,8 @@ SWIFT_CLASS_NAMED("CheckoutRequest")
 SWIFT_CLASS_NAMED("Customer")
 @interface S4Customer : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 typedef SWIFT_ENUM_NAMED(NSInteger, S4LiabilityShift, "LiabilityShift", open) {

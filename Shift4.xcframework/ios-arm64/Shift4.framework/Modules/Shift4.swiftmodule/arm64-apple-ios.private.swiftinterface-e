@@ -9,7 +9,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import ipworks3ds_sdk
-@objc(S4Customer) public class Customer : ObjectiveC.NSObject, Swift.Codable {
+@_hasMissingDesignatedInitializers @objc(S4Customer) public class Customer : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let id: Swift.String
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
@@ -20,6 +20,7 @@ import ipworks3ds_sdk
   @objc final public let customer: Shift4.Customer?
   @objc final public let chargeId: Swift.String?
   @objc final public let subscriptionId: Swift.String?
+  public func dictionary() -> [Swift.String : Any]
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
@@ -83,6 +84,7 @@ import ipworks3ds_sdk
     }
   }
   @objc final public func localizedMessage() -> Swift.String
+  final public func dictionary() -> [Swift.String : Any]
   @objc deinit
   final public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws

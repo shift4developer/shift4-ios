@@ -578,11 +578,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Shift413PaymentResultC10dictionarySDySSypGyF",
+            "usr": "c:@M@Shift4@objc(cs)S4PaymentResult(im)dictionary",
             "mangledName": "$s6Shift413PaymentResultC10dictionarySDySSypGyF",
             "moduleName": "Shift4",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2750,12 +2751,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Shift40A5ErrorC10dictionarySDySSypGyF",
+            "usr": "c:@M@Shift4@objc(cs)S4Error(im)dictionary",
             "mangledName": "$s6Shift40A5ErrorC10dictionarySDySSypGyF",
             "moduleName": "Shift4",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -9355,14 +9357,14 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Button.swift",
       "kind": "StringLiteral",
-      "offset": 321,
+      "offset": 320,
       "length": 11,
       "value": "\"checkmark\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/securionpay-mobile\/securionpay-ios-sdk-release\/Shift4\/Library\/Views\/Shift4Button.swift",
       "kind": "BooleanLiteral",
-      "offset": 1633,
+      "offset": 1632,
       "length": 4,
       "value": "true"
     },

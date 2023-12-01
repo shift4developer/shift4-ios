@@ -263,7 +263,7 @@ checkoutChannel.setMethodCallHandler({ [weak self] (call: FlutterMethodCall, res
 })
 ```
 
-Remember to provide the appropriate publicKey and checkoutRequest.
+Remember to provide the appropriate publicKey, bundleIdentifier and checkoutRequest. Bundle identifier should not be hardcoded in the app, but provided from your servers.
 
 In the State of your application add the lines:
 
@@ -286,6 +286,108 @@ And execute the created function somewhere, such as creating a button:
 TextButton(
     onPressed: _checkout, 
     child: const Text('Hello Shift4!')),
+```
+
+That's it. You can launch your app.
+
+## React Native
+
+The SDK is created in native technologies, but since React Native allows you to use native components, integrating the library on this platform is possible, but requires a few additional steps.
+
+At first that, open the Xcode project file located in the /ios subdirectory in the main project directory. Then perform the configuration described in the Installation section. Don't forget to request the 3D-Secure library, without which you won't compile the project, and which we can't publish on github for licensing reasons. You will get it by contacting devsupport@shift4.com.
+
+In the native iOS code in Xcode create class Shift4Bridge:
+
+```objective-c
+// Shift4Bridge.h
+#import <Foundation/Foundation.h>
+#import <React/RCTBridgeModule.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Shift4Bridge : NSObject <RCTBridgeModule>
+
+@end
+
+NS_ASSUME_NONNULL_END
+```
+
+```objective-c
+// Shift4Bridge.m
+#import "Shift4Bridge.h"
+
+@import Shift4;
+@import React;
+
+@implementation Shift4Bridge
+
+- (dispatch_queue_t)methodQueue
+{
+  return dispatch_get_main_queue();
+}
+
+RCT_EXPORT_MODULE(Shift4Bridge);
+
+RCT_REMAP_METHOD(hook,
+                 checkoutRequest:(nonnull NSString *)checkoutRequest
+                 resolver:(RCTPromiseResolveBlock)resolve
+                 rejecter:(RCTPromiseRejectBlock)reject)
+{
+  id cr = [[S4CheckoutRequest alloc] initWithContent:checkoutRequest];
+  
+  [Shift4SDK shared].publicKey = @"pk_test_...";
+  [Shift4SDK shared].bundleIdentifier = @"com.example.app";
+  [[Shift4SDK shared] showCheckoutViewControllerIn:RCTPresentedViewController() checkoutRequest:cr merchantName:@"Example merchant" description:@"Example payment" merchantLogo:nil collectShippingAddress:NO collectBillingAddress:NO email:nil completion:^(S4PaymentResult * _Nullable result, S4Error * _Nullable error) {
+    if (result != nil) {
+      resolve([NSDictionary dictionaryWithDictionary:[result dictionary]]);
+    }
+    if (error != nil) {
+      reject(@"Shift4 Error", [error localizedMessage], [NSError errorWithDomain:@"Shift4Bridge" code:100 userInfo:[NSDictionary dictionaryWithDictionary:[error dictionary]]]);
+    }
+  }];
+}
+
+@end
+```
+
+Remember to provide the appropriate publicKey, bundleIdentifier and checkoutRequest. Bundle identifier should not be hardcoded in the app, but provided from your servers.
+
+In the React Native code create a button:
+
+```javascript
+<View style={styles.buttonContainer}>
+    <Button title="Press Me" onPress={handleButtonPress} />
+</View>
+```
+
+And its handler:
+
+```javascript
+  const handleButtonPress = () => {
+    NativeModules.Shift4Bridge.hook(
+      "checkout request content",
+    )
+    .then(result => {
+      Alert.alert(
+        'Success',
+        JSON.stringify(result),
+        [
+          { text: 'OK', onPress: () => console.log('OK') },
+        ],
+        { cancelable: false }
+      );
+    })
+    .catch(error => {
+      Alert.alert(
+        'Error',
+        JSON.stringify(error),
+        [
+          { text: 'OK', onPress: () => console.log('OK') },
+        ],
+        { cancelable: false }
+      );
+    });
+  };
 ```
 
 That's it. You can launch your app.

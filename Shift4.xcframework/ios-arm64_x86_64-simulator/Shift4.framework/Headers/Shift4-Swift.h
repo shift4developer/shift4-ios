@@ -230,6 +230,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -303,6 +304,7 @@ SWIFT_CLASS_NAMED("PaymentResult")
 @property (nonatomic, readonly, strong) S4Customer * _Nullable customer;
 @property (nonatomic, readonly, copy) NSString * _Nullable chargeId;
 @property (nonatomic, readonly, copy) NSString * _Nullable subscriptionId;
+- (NSDictionary<NSString *, id> * _Nonnull)dictionary SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -311,6 +313,7 @@ SWIFT_CLASS_NAMED("PaymentResult")
 SWIFT_CLASS_NAMED("Shift4Error")
 @interface S4Error : NSObject
 - (NSString * _Nonnull)localizedMessage SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, id> * _Nonnull)dictionary SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -637,6 +640,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -710,6 +714,7 @@ SWIFT_CLASS_NAMED("PaymentResult")
 @property (nonatomic, readonly, strong) S4Customer * _Nullable customer;
 @property (nonatomic, readonly, copy) NSString * _Nullable chargeId;
 @property (nonatomic, readonly, copy) NSString * _Nullable subscriptionId;
+- (NSDictionary<NSString *, id> * _Nonnull)dictionary SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -718,6 +723,7 @@ SWIFT_CLASS_NAMED("PaymentResult")
 SWIFT_CLASS_NAMED("Shift4Error")
 @interface S4Error : NSObject
 - (NSString * _Nonnull)localizedMessage SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, id> * _Nonnull)dictionary SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

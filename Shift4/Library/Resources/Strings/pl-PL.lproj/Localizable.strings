@@ -1,0 +1,57 @@
+"add_payment" = "Dodaj płatność";
+"select_amount" = "Wybierz kwotę";
+"email" = "E-mail";
+"card_information" = "Informacje o karcie";
+"card_number" = "Numer karty";
+"expiration" = "Data wygaśnięcia";
+"cvc" = "CVC";
+"enter_payment_data" = "Wprowadź dane płatności";
+"confirm" = "Potwierdź";
+"pay" = "Zapłać";
+"user_information" = "Informacje o użytkowniku";
+"unlock_card_details" = "Odblokuj dane karty";
+"sms_code_info" = "Wprowadź kod, który właśnie wysłaliśmy na Twój telefon komórkowy";
+"card" = "Karta";
+"no_code_info" = "Nie otrzymałeś kodu?";
+"invalid_email" = "email: Nieprawidłowy adres e-mail.";
+"unknown_error" = "Nieznany błąd. Spróbuj ponownie lub skontaktuj się z pomocą techniczną.";
+"invalid_number" = "Numer karty nie jest prawidłowym numerem karty.";
+"invalid_expiry_month" = "Nieprawidłowy miesiąc ważności karty.";
+"invalid_expiry_year" = "Rok ważności karty jest nieprawidłowy.";
+"invalid_cvc" = "Kod bezpieczeństwa Twojej karty jest nieprawidłowy.";
+"incorrect_cvc" = "Kod bezpieczeństwa karty nie przeszedł weryfikacji.";
+"incorrect_zip" = "Kod pocztowy karty nie przeszedł weryfikacji.";
+"expired_card" = "Karta straciła ważność.";
+"insufficient_funds" = "Kwota obciążenia przekracza dostępne środki lub limit kredytowy karty.";
+"lost_or_stolen" = "Karta jest oznaczona jako zagubiona lub skradziona.";
+"suspected_fraud" = "Opłata jest podejrzana o oszustwo.";
+"card_declined" = "Karta została odrzucona z innego powodu.";
+"processing_error" = "Podczas przetwarzania karty wystąpił błąd.";
+"blacklisted" = "Karta znajduje się na czarnej liście.";
+"expired_token" = "Token wygasł.";
+"insufficient_funds" = "Kwota obciążenia przekracza dostępne fundusze lub limit kredytowy karty.";
+
+"enter_card_details" = "Wprowadź dane karty";
+"shift4_remembers" = "Shift4 zapamiętuje Twoją kartę.";
+"authentication_required" = "Obciążenie wymaga uwierzytelnienia właściciela karty.";
+"Rate limit exceeded" = "Przekroczony limit połączeń";
+"enrolledCardIsRequired" = "Obciążenie wymaga uwierzytelnienia właściciela karty.";
+"successfulLiabilityShiftIsRequired" = "Obciążenie wymaga uwierzytelnienia właściciela karty.";
+
+"request_timedout" = "Przekroczenie limitu czasu żądania. Sprawdź swoją sieć i spróbuj ponownie.";
+"poor_connection" = "Słabe połączenie. Sprawdź swoją sieć i spróbuj ponownie.";
+"unknown_connection_error" = "Błąd połączenia. Sprawdź swoją sieć i spróbuj ponownie.";
+
+"loading_payment_info" = "Ładowanie informacji o płatności...";
+"save_for_future_payments" = "Zapamiętaj mnie w Shift4";
+"name" = "Imię";
+"street" = "Ulica";
+"zip" = "Kod pocztowy";
+"city" = "Miasto";
+"country" = "Kraj";
+"vat" = "Numer VAT";
+"same_address_switch" = "Ten sam adres wysyłkowy i rozliczeniowy";
+"billing" = "Adres rozliczeniowy";
+"shipping" = "Adres wysyłki";
+
+"shift4_safely_stores" = "Shift4 bezpiecznie przechowuje dane Twojej karty kredytowej.";

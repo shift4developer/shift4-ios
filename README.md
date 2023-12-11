@@ -1,6 +1,6 @@
 # Shift4 iOS SDK
 
-Welcome to Shift4 iOS SDK. Framework allows you to easily add Shift4 payments to your mobile apps. It allows you to integrate Shift4 with just a few lines of code. It also exposes low-level Shift4 API which you can use to create custom payment form.
+Welcome to Shift4 iOS SDK. Framework allows you to easily add Shift4 payments to your mobile apps. It allows you to integrate Shift4 with just a few lines of code.
 
 ## Features
 
@@ -24,12 +24,6 @@ You can process payments in 18 languages.
 
 We created simple application to demonstrate Framework's features.
 
-## Requirements and limitations
-
-Strict requirements of PCI 3DS SDK make development impossible. Running on simulator or debugging are forbidden in a production build of your application. We provide two versions of Framework both for Debug and Release builds so you can create and debug your application without any issues.
-
-Notice that XCode release builds and AdHoc builds with release version of Framework are forbidden too. Any attempt to perform the operation results with error. The only tool that allows to test the release version is Apple TestFlight.
-
 ## App Store Review
 
 To ensure that an application using our SDK successfully passes the review process to the App Store, we have integrated it into the Shift4 Sentinel application. It also allows you to familiarize yourself with the features of our Framework in a convenient way. To do this, download the application (https://apps.apple.com/us/app/shift4-sentinel/id6444154679), then in the Profile tab, turn on the test mode. A Developers section will appear at the bottom of the screen with a demonstration of the Framework.
@@ -40,25 +34,7 @@ To ensure that an application using our SDK successfully passes the review proce
 
 Because of issues related with XCFramework, you have to use version **1.10.1** of CocoaPods or higher.
 
-3D Secure library license requirements force us to distribute it via email. Contact devsupport@shift4.com to get it. Download both ipworks3ds_sdk_debug.xcframework and ipworks3ds_sdk_release.xcframework 3D-Secure libraries and copy them to Frameworks directory in your project's root. Then add a new script that selects proper version of 3DS framework to Build Phases:
-
-```
-rm -rf ${SRCROOT}/ipworks3ds_sdk.xcframework
-
-if [ $CONFIGURATION == "Release" ]; then
-    cp -rf ${SRCROOT}/Frameworks/ipworks3ds_sdk_release.xcframework ${SRCROOT}/ipworks3ds_sdk.xcframework
-fi
-
-if [ $CONFIGURATION == "Debug" ]; then
-    cp -rf ${SRCROOT}/Frameworks/ipworks3ds_sdk_debug.xcframework ${SRCROOT}/ipworks3ds_sdk.xcframework
-fi
-```
-
-This step is called `Copy Shift4 3DS framework` in Example app where you can check it.
-
-Then build an app. New file ipworks3ds_sdk.xcframework will appear in your project's root directory. Add it to your project. Select `Embed & Sign` option.
-
-Next you need to install the Framework using Cocoapods. Add the following entry in your Podfile:
+Add the following entry in your Podfile:
 
 ```ruby
 pod 'Shift4'
@@ -87,7 +63,7 @@ If you have not created an account yet, you can do it here: https://dev.shift4.c
 
 To configure the framework you need to provide the public key. You can find it here: https://dev.shift4.com/account-settings. Notice that there are two types of keys: live and test. The type of key determines application mode. Make sure you used a live key in build released to App Store. You can provide it on your backend side as well.
 
-Framework also requires you to specify Bundle Identifier of application. This should match the Bundle Identifier used when building the application. Any attempt to perform the operation in release mode results in error if they do not match. This value should not be hardcoded in the application for security reasons. You should provide it on your backend side.
+Framework also requires you to specify Bundle Identifier of application. This should match the Bundle Identifier used when building the application. This value should not be hardcoded in the application for security reasons. You should provide it on your backend side.
 
 ##### Swift
 
@@ -101,6 +77,19 @@ Shift4SDK.shared.bundleIdentifier = "..."
 ```objective-c
 Shift4SDK.shared.publicKey = @"pk_test_...";
 Shift4SDK.shared.bundleIdentifier = @"";
+```
+
+To improve tampering detection the SDK performs number of checks. One of them requires you to add the code below to your app's Info.plist:
+```xml
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>activator</string>
+        <string>zbra</string>
+        <string>sileo</string>
+        <string>undecimus</string>
+        <string>cydia</string>
+        <string>filza</string>
+    </array>
 ```
 
 ### Checkout View Controller
@@ -173,33 +162,6 @@ Shift4SDK.shared.cleanSavedCards()
 | .threeDSecure | .simulator                | "An emulator is being used to run the app."            |                                                              |
 | .threeDSecure | .osNotSupported           | "The OS or the OS version is not supported."           |                                                              |
 
-
-
-### Custom Form
-
-SDK allows user to present 3DS authentication screen as a modal dialog.
-
-##### Swift
-
-```swift
-let request = TokenRequest(
-    number: "4242424242424242",
-    expirationMonth: "10",
-    expirationYear: "2023",
-    cvc: "123"
-)
-
-Shift4SDK.shared.createToken(with: request) { token, error in
-    guard let self = self else { return }
-    guard let token = token else { print(error); return }
-
-    Shift4SDK.shared.authenticate(token: token, amount: 10000, currency: "EUR", viewControllerPresenting3DS: self) { [weak self] authenticatedToken, authenticationError in
-        print(authenticatedToken)      
-        print(authenticationError)                                                                                                     
-    }
-}
-```
-
 #### Possible errors
 
 ##### Creating token
@@ -227,7 +189,7 @@ Shift4SDK.shared.createToken(with: request) { token, error in
 
 The SDK is created in native technologies, but since Flutter allows you to use native components, integrating the library on this platform is possible, but requires a few additional steps.
 
-At first that, open the Xcode project file located in the /ios subdirectory in the main project directory. Then perform the configuration described in the Installation section. Don't forget to request the 3D-Secure library, without which you won't compile the project, and which we can't publish on github for licensing reasons. You will get it by contacting devsupport@shift4.com.
+At first that, open the Xcode project file located in the /ios subdirectory in the main project directory. Then perform the configuration described in the Installation section.
 
 In the native iOS code in AppDelegate.swift create the function:
 
@@ -294,7 +256,7 @@ That's it. You can launch your app.
 
 The SDK is created in native technologies, but since React Native allows you to use native components, integrating the library on this platform is possible, but requires a few additional steps.
 
-At first that, open the Xcode project file located in the /ios subdirectory in the main project directory. Then perform the configuration described in the Installation section. Don't forget to request the 3D-Secure library, without which you won't compile the project, and which we can't publish on github for licensing reasons. You will get it by contacting devsupport@shift4.com.
+At first that, open the Xcode project file located in the /ios subdirectory in the main project directory. Then perform the configuration described in the Installation section. 
 
 In the native iOS code in Xcode create class Shift4Bridge:
 
@@ -399,6 +361,7 @@ Interface elements such as fonts, colors and sizes can be freely modified using 
 ```swift
 let style = Shift4SDK.shared.style
 
+style.backgroundColor = .white
 style.primaryColor = .blue
 style.successColor = .green
 style.errorColor = .red
@@ -419,6 +382,15 @@ style.font.body = UIFont.systemFont(ofSize: 10)
 style.font.label = UIFont.systemFont(ofSize: 10)
 style.font.error = UIFont.systemFont(ofSize: 10)
 style.font.tileLabel = UIFont.systemFont(ofSize: 20)
+```
+
+### Dark mode
+To customize colors in dark mode, you can use UIColor.init(dynamicProvider:):
+
+```swift
+if #available(iOS 13.0, *) {
+  style.primaryColor = .init { $0.userInterfaceStyle == .dark ? .blue : .lightGray }
+}
 ```
 
 #### primaryColor
@@ -464,3 +436,4 @@ SDK supports localization for 18 languages. Your application must be localized.
 ## License
 
 Framework is released under the MIT Licence.
+3DS SDK is release under the Apache 2.0 Licence.

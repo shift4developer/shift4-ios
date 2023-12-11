@@ -1,0 +1,11 @@
+framework module Shift43DS {
+  umbrella header "Shift43DS.h"
+
+  export *
+  module * { export * }
+}
+
+module Shift43DS.Swift {
+  header "Shift43DS-Swift.h"
+  requires objc
+}

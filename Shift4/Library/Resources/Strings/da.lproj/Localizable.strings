@@ -1,0 +1,57 @@
+"add_payment" = "Tilføj betaling";
+"select_amount" = "Vælg beløb";
+"email" = "E-mail";
+"card_information" = "Kortoplysninger";
+"card_number" = "Kortnummer";
+"expiration" = "Udløbsdato";
+"cvc" = "CVC";
+"enter_payment_data" = "Indtast betalingsdata";
+"confirm" = "Bekræftelse";
+"pay" = "Betal";
+"user_information" = "Brugeroplysninger";
+"unlock_card_details" = "Lås kortoplysninger op";
+"sms_code_info" = "Indtast den kode, vi netop har sendt til din mobiltelefon";
+"card" = "Kort";
+"no_code_info" = "Har du ikke fået koden?";
+"invalid_email" = "email: Ugyldig emailadresse.";
+"unknown_error" = "Ukendt fejl. Prøv igen eller kontakt support.";
+"invalid_number" = "Kortnummeret er ikke et gyldigt kortnummer.";
+"invalid_expiry_month" = "Kortets udløbsmåned er ugyldig.";
+"invalid_expiry_year" = "Kortets udløbsår er ugyldigt.";
+"invalid_cvc" = "Kortets sikkerhedskode er ugyldig.";
+"incorrect_cvc" = "Kortets sikkerhedskode blev ikke verificeret.";
+"incorrect_zip" = "Kortets postnummer blev ikke verificeret.";
+"expired_card" = "Kortet er udløbet.";
+"insufficient_funds" = "Det opkrævede beløb overstiger den disponible fond eller kortets kreditgrænse.";
+"lost_or_stolen" = "Kortet er markeret som mistet eller stjålet.";
+"suspected_fraud" = "Den opkrævning er mistænkt for at være svigagtig.";
+"card_declined" = "Kortet er blevet afvist af anden grund.";
+"processing_error" = "Der opstod en fejl under behandlingen af kortet.";
+"blacklisted" = "Kortet er sortlistet.";
+"expired_token" = "Tokenet er udløbet.";
+"insufficient_funds" = "Det opkrævede beløb overstiger den disponible fond eller kortets kreditgrænse.";
+
+"enter_card_details" = "Indtast kortoplysninger";
+"shift4_remembers" = "Shift4 husker dit kort.";
+"authentication_required" = "Opkrævningen kræver kortholdergodkendelse.";
+"Rate limit exceeded" = "Grænse for forbindelser overskredet";
+"enrolledCardIsRequired" = "Opkrævningen kræver kortholdergodkendelse.";
+"successfulLiabilityShiftIsRequired" = "Opkrævningen kræver kortholdergodkendelse.";
+
+"request_timedout" = "Netværksanmodningen er gået ud i tid. Tjek dit netværk og prøv igen.";
+"poor_connection" = "Dårlig forbindelse. Tjek dit netværk og prøv igen.";
+"unknown_connection_error" = "Forbindelsesfejl. Kontroller dit netværk og prøv igen.";
+
+"loading_payment_info" = "Indlæsning af betalingsoplysninger...";
+"save_for_future_payments" = "Husk mig i Shift4";
+"name" = "Fornavn";;
+"street" = "Street";;
+"zip" = "Postnummer";;;;;.
+"city" = "By";;;;
+"country" = "Land";;;;
+"vat" = "Momsnummer";;;;
+"same_address_switch" = "Samme forsendelses- og faktureringsadresse";
+"billing" = "Fakturaadresse";
+"shipping" = "Leveringsadresse";
+
+"shift4_safely_stores" = "Shift4 opbevarer dine kreditkortdata sikkert.";

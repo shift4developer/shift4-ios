@@ -1,0 +1,57 @@
+"add_payment" = "Ajouter un paiement";
+"select_amount" = "Sélectionner le montant";
+"email" = "E-mail";
+"card_information" = "Informations sur la carte";
+"card_number" = "Numéro de carte";
+"expiration" = "Date d'expiration";
+"cvc" = "CVC";
+"enter_payment_data" = "Entrez les données du paiement";
+"confirm" = "Confirmer";
+"pay" = "Payer";
+"user_information" = "Informations sur l'utilisateur";
+"unlock_card_details" = "Débloquer les détails de la carte";
+"sms_code_info" = "Entrez le code que nous venons d'envoyer à votre téléphone portable";
+"card" = "Carte";
+"no_code_info" = "Vous n'avez pas reçu le code?";
+"invalid_email" = "email: Adresse e-mail non valide.";
+"unknown_error" = "Erreur inconnue. Essayez à nouveau ou contactez l'assistance.";
+"invalid_number" = "Le numéro de carte n'est pas un numéro de carte valide.";
+"invalid_expiry_month" = "Le mois d'expiration de la carte est invalide.";
+"invalid_expiry_year" = "L'année d'expiration de la carte n'est pas valide.";
+"invalid_cvc" = "Le code de sécurité de votre card\ est invalide.";
+"incorrect_cvc" = "Le code de sécurité de votre card\ a échoué à la vérification.";
+"incorrect_zip" = "La vérification du code postal de la carte a échoué.";
+"expired_card" = "La carte a expiré.";
+"insufficient_funds" = "Le montant de l'opération dépasse les fonds disponibles ou la limite de crédit du titulaire de la carte.";
+"lost_or_stolen" = "La carte est marquée comme perdue ou volée.";
+"suspected_fraud" = "La charge est suspectée d'être frauduleuse.";
+"card_declined" = "La carte a été refusée pour une autre raison.";
+"processing_error" = "Une erreur s'est produite lors du traitement de la carte.";
+"blacklisted" = "La carte est sur liste noire.";
+"expired_token" = "Le jeton a expiré.";
+"insufficient_funds" = "Le montant du débit dépasse le fonds disponible ou la limite de crédit de la carte.";
+
+"enter_card_details" = "Saisir les détails de la carte";
+"shift4_remembers" = "Shift4 mémorise votre carte.";
+"authentication_required" = "Le débit nécessite une authentification du titulaire de la carte.";
+"Rate limit exceeded" = "Limite de connexion dépassée";
+"enrolledCardIsRequired" = "Le débit nécessite une authentification du titulaire de la carte.";
+"successfulLiabilityShiftIsRequired" = "Le débit nécessite une authentification du titulaire de la carte.";
+
+"request_timedout" = "La demande de réseau a expiré. Vérifiez votre réseau et réessayez";
+"poor_connection" = "Mauvaise connexion. Vérifiez votre réseau et réessayez.";
+"unknown_connection_error" = "Erreur de connexion. Vérifiez votre réseau et réessayez.";
+
+"loading_payment_info" = "Chargement des informations de paiement...";
+"save_for_future_payments" = "Remember me in Shift4" ;
+"name" = "Prénom"; ;
+"street" = "Rue"; ;
+"zip" = "Code postal";; ;.
+"city" = "City";; ;
+"pays" = "Pays";; ;
+"vat" = "Numéro de TVA";; ;
+"same_address_switch" = "Même adresse de livraison et de facturation" ;
+"billing" = "Adresse de facturation" ;
+"shipping" = "Adresse de livraison" ;
+
+"shift4_safely_stores" = "Shift4 stocke en toute sécurité les données de votre carte de crédit.";

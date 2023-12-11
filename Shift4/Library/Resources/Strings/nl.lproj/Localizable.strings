@@ -1,0 +1,56 @@
+"add_payment" = "Betaling toevoegen";
+"select_amount" = "Selecteer bedrag";
+"email" = "E-mail";
+"card_information" = "Card informatie";
+"card_number" = "Card_nummer";
+"expiration" = "Vervaldatum";
+"cvc" = "CVC";
+"enter_payment_data" = "Voer betalingsgegevens in";
+"confirm" = "Bevestigen";
+"pay" = "Betaal";
+"user_information" = "Gebruikersinformatie";
+"unlock_card_details" = "De kaartgegevens ontgrendelen";
+"sms_code_info" = "Voer de code in die we zojuist naar uw mobiele telefoon hebben gestuurd";
+"card" = "Kaart";
+"no_code_info" = "Heeft u de code niet ontvangen?";
+"invalid_email" = "email: Ongeldig e-mail adres.";
+"unknown_error" = "Onbekende fout. Probeer het opnieuw of neem contact op met support.";
+"invalid_number" = "Het kaartnummer is geen geldig kaartnummer.";
+"invalid_expiry_month" = "De vervalmaand van de kaart is ongeldig.";
+"invalid_expiry_year" = "Het vervaljaar van de kaart is ongeldig.";
+"invalid_cvc" = "De beveiligingscode van uw kaart is ongeldig.";
+"incorrect_cvc" = "De beveiligingscode van de kaart is niet geverifieerd.";
+"incorrect_zip" = "De postcode van de kaart is niet geverifieerd.";
+"expired_card" = "De kaart is verlopen.";
+"insufficient_funds" = "Het oplaadbedrag overschrijdt het beschikbare bedrag of de kredietlimiet van de kaart.";
+"lost_or_stolen" = "De kaart is gemarkeerd als verloren of gestolen.";
+"suspected_fraud" = "De afschrijving is vermoedelijk frauduleus.";
+"card_declined" = "De kaart is om een andere reden geweigerd.";
+"processing_error" = "Er is een fout opgetreden tijdens het verwerken van de kaart.";
+"blacklisted" = "De kaart staat op de zwarte lijst.";
+"expired_token" = "Het token is verlopen.";
+"insufficient_funds" = "Het bedrag van de afschrijving overschrijdt het beschikbare saldo of de kredietlimiet van de kaart.";
+
+"enter_card_details" = "Kaart gegevens invoeren";
+"shift4_remembers" = "Shift4 onthoudt uw kaart.";
+"authentication_required" = "Voor het opladen is authenticatie van de kaarthouder vereist.";
+"Rate limit exceeded" = "Verbindingslimiet overschreden";
+"enrolledCardIsRequired" = "Voor het opladen is authenticatie van de kaarthouder vereist.";
+"successfulLiabilityShiftIsRequired" = "Voor het opladen is authenticatie van de kaarthouder vereist.";
+
+"request_timedout" = "Netwerkaanvraag is uitgetimed. Controleer uw netwerk en probeer het opnieuw.";
+"poor_connection" = "Slechte verbinding. Controleer uw netwerk en probeer het opnieuw";
+"unknown_connection_error" = "Verbindingsfout. Controleer uw netwerk en probeer het opnieuw";
+
+"loading_payment_info" = "Betalingsinformatie wordt geladen...";
+"name" = "Naam";
+"street" = "Straat";
+"zip" = "Postcode";
+"city" = "Stad";
+"country" = "Land";
+"btw" = "BTW-nummer";
+"same_address_switch" = "Zelfde verzend- en factuuradres";
+"billing" = "Factuuradres";
+"shipping" = "Verzendadres";
+
+"shift4_safely_stores" = "Shift4 slaat uw creditcardgegevens veilig op.";

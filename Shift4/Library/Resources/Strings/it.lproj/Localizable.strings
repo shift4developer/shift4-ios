@@ -1,0 +1,57 @@
+"add_payment" = "Aggiungi pagamento";
+"select_amount" = "Seleziona importo";
+"email" = "E-mail";
+"card_information" = "Informazioni sulla carta";
+"card_number" = "Numero della carta";
+"expiration" = "Data di scadenza";
+"cvc" = "CVC";
+"enter_payment_data" = "Inserisci i dati di pagamento";
+"confirm" = "Conferma";
+"pay" = "Paga";
+"user_information" = "Informazioni utente";
+"unlock_card_details" = "Sblocca i dettagli della carta";
+"sms_code_info" = "Inserisci il codice che abbiamo appena inviato al tuo cellulare";
+"card" = "Carta";
+"no_code_info" = "Non hai ricevuto il codice?";
+"invalid_email" = "email: Indirizzo e-mail non valido.";
+"unknown_error" = "Errore sconosciuto. Riprova o contatta il supporto.";
+"invalid_number" = "Il numero della carta non è un numero valido.";
+"invalid_expiry_month" = "Il mese di scadenza della carta non è valido.";
+"invalid_expiry_year" = "L'anno di scadenza della carta non è valido.";
+"invalid_cvc" = "Il codice di sicurezza della tua carta non è valido.";
+"incorrect_cvc" = "Il codice di sicurezza della carta non è stato verificato.";
+"incorrect_zip" = "Il codice postale della carta non ha superato la verifica.";
+"expired_card" = "La carta è scaduta.";
+"insufficient_funds" = "L'importo dell'addebito supera il fondo disponibile o il limite di credito della carta.";
+"lost_or_stolen" = "La carta è contrassegnata come persa o rubata.";
+"suspected_fraud" = "L'addebito è sospettato di essere fraudolento.";
+"card_declined" = "La carta è stata rifiutata per altri motivi.";
+"processing_error" = "Si è verificato un errore durante l'elaborazione della carta.";
+"blacklisted" = "La carta è nella lista nera.";
+"expired_token" = "Il token è scaduto.";
+"insufficient_funds" = "L'importo dell'addebito supera il fondo disponibile o il limite di credito della carta.";
+
+"enter_card_details" = "Inserisci i dettagli della carta";
+"shift4_remembers" = "Shift4 ricorda la tua carta.";
+"authentication_required" = "L'addebito richiede l'autenticazione del titolare della carta.";
+"Rate limit exceeded" = "Limite di connessione superato";
+"enrolledCardIsRequired" = "L'addebito richiede l'autenticazione del titolare della carta.";
+"successfulLiabilityShiftIsRequired" = "L'addebito richiede l'autenticazione del titolare della carta.";
+
+"request_timedout" = "La richiesta di rete è scaduta. Controllare la rete e riprovare";
+"poor_connection" = "Connessione scadente. Controllare la rete e riprovare";
+"unknown_connection_error" = "Errore di connessione. Controllare la rete e riprovare";
+
+"loading_payment_info" = "Caricamento delle informazioni di pagamento...";
+"save_for_future_payments" = "Ricordati di me in Shift4";
+"name" = "Nome";;
+"street" = "Via";;
+"zip" = "Codice postale";;.
+"city" = "Città";;;
+"country" = "Paese";;;
+"vat" = "Numero di partita IVA";;;
+"same_address_switch" = "Stesso indirizzo di spedizione e di fatturazione";
+"billing" = "Indirizzo di fatturazione";
+"shipping" = "Indirizzo di spedizione";
+
+"shift4_safely_stores" = "Shift4 memorizza in modo sicuro i dati della carta di credito.";

@@ -1,0 +1,57 @@
+"add_payment" = "Pridėti mokėjimą";
+"select_amount" = "Pasirinkite sumą";
+"email" = "Elektroninis paštas";
+"card_information" = "Kortelės informacija";
+"card_number" = "Kortelės numeris";
+"expiration" = "Galiojimo data";
+"cvc" = "CVC";
+"enter_payment_data" = "Įveskite mokėjimo duomenis";
+"confirm" = "Patvirtinti";
+"pay" = "Mokėti";
+"user_information" = "Vartotojo informacija";
+"unlock_card_details" = "Atrakinti kortelės duomenis";
+"sms_code_info" = "Įveskite kodą, kurį ką tik išsiuntėme į jūsų mobilųjį telefoną";
+"card" = "Kortelė";
+"no_code_info" = "Negavote kodo?";
+"invalid_email" = "email: Neteisingas el. pašto adresas.";
+"unknown_error" = "Nežinoma klaida. Pabandykite dar kartą arba kreipkitės į palaikymo tarnybą.";
+"invalid_number" = "Kortelės numeris nėra galiojantis kortelės numeris.";
+"invalid_expiry_month" = "Kortelės galiojimo mėnuo negalioja.";
+"invalid_expiry_year" = "Kortelės galiojimo metai negalioja.";
+"invalid_cvc" = "Kortelės saugumo kodas negalioja.";
+"incorrect_cvc" = "Kortelės saugumo kodo nepavyko patikrinti.";
+"incorrect_zip" = "Kortelės pašto kodo nepavyko patikrinti.";
+"expired_card" = "Kortelės galiojimo laikas baigėsi.";
+"insufficient_funds" = "Naudos suma viršija turimas lėšas arba kortelės kredito limitą.";
+"lost_or_stolen" = "Kortelė pažymėta kaip pamesta arba pavogta.";
+"suspected_fraud" = "Įtariama, kad mokestis yra apgaulingas.";
+"card_declined" = "Kortelę atsisakyta išduoti dėl kitos priežasties.";
+"processing_error" = "Apdorojant kortelę įvyko klaida.";
+"blacklisted" = "Kortelė įtraukta į juodąjį sąrašą.";
+"expired_token" = "Ženklo galiojimo laikas baigėsi.";
+"insufficient_funds" = "Naudos suma viršija turimas lėšas arba kortelės kredito limitą.";
+
+"enter_card_details" = "Įveskite kortelės duomenis";
+"shift4_remembers" = "Shift4 įsimena jūsų kortelę.";
+"authentication_required" = "Mokėjimui atlikti reikalingas kortelės turėtojo autentiškumo patvirtinimas.";
+"Rate limit exceeded" = "Viršytas jungčių limitas";
+"enrolledCardIsRequired" = "Mokėjimui atlikti reikalingas kortelės turėtojo autentiškumo patvirtinimas.";
+"successfulLiabilityShiftIsRequired" = "Mokėjimui atlikti reikalingas kortelės turėtojo autentiškumo patvirtinimas.";
+
+"request_timedout" = "Tinklo užklausa užtruko. Patikrinkite tinklą ir bandykite dar kartą.";
+"poor_connection" = "Prastas ryšys. Patikrinkite savo tinklą ir bandykite dar kartą.";
+"unknown_connection_error" = "Ryšio klaida. Patikrinkite savo tinklą ir bandykite dar kartą.";
+
+"loading_payment_info" = "Įkeliama mokėjimo informacija...";
+"save_for_future_payments" = "Prisiminti mane Shift4";
+"name" = "Vardas";;
+"street" = "Gatvė";;
+"zip" = "Pašto indeksas";;
+"city" = "Miestas";;;
+"country" = "Šalis";;;
+"vat" = "PVM mokėtojo kodas";;;
+"same_address_switch" = "Tas pats pristatymo ir atsiskaitymo adresas";
+"billing" = "Atsiskaitymo adresas";
+"shipping" = "Pristatymo adresas";
+
+"shift4_safely_stores" = "Shift4 saugiai saugo jūsų kredito kortelės duomenis.";

@@ -1,0 +1,57 @@
+"add_payment" = "Pievienot maksājumu";
+"select_amount" = "Izvēlēties summu";
+"email" = "E-pasts";
+"card_information" = "Kartes informācija";
+"card_number" = "Kartes numurs";
+"expiration" = "Derīguma termiņš";
+"cvc" = "CVC";
+"enter_payment_data" = "Ievadiet maksājuma datus";
+"confirm" = "Pārbaudīt";
+"pay" = "Maksāt";
+"user_information" = "Vietotāja informācija";
+"unlock_card_details" = "Atbloķēt kartes informāciju";
+"sms_code_info" = "Ievadiet kodu, ko mēs tikko nosūtījām uz jūsu mobilo tālruni";
+"card" = "Karte";
+"no_code_info" = "Kodu nesaņēmāt?";
+"invalid_email" = "email: Nepareiza e-pasta adrese.";
+"unknown_error" = "Nezināma kļūda. Mēģiniet vēlreiz vai sazinieties ar atbalsta dienestu.";
+"invalid_number" = "Kartes numurs nav derīgs kartes numurs.";
+"invalid_expiry_month" = "Kartes derīguma termiņš ir nederīgs.";
+"invalid_expiry_year" = "Kartes derīguma termiņš ir nederīgs.";
+"invalid_cvc" = "Kartes drošības kods ir nederīgs.";
+"incorrect_cvc" = "Kartes drošības kods nav pārbaudīts.";
+"incorrect_zip" = "Kartes pasta indekss nav pārbaudīts.";
+"expired_card" = "Kartes derīguma termiņš ir beidzies.";
+"insufficient_funds" = "Nomaksas summa pārsniedz pieejamo līdzekļu apjomu vai kartes kredītlimitu.";
+"lost_or_stolen" = "Karte ir atzīmēta kā nozaudēta vai nozagta.";
+"suspected_fraud" = "Ir aizdomas, ka maksa ir krāpnieciska.";
+"card_declined" = "Karte tika noraidīta cita iemesla dēļ.";
+"processing_error" = "Kartes apstrādes laikā notika kļūda.";
+"blacklisted" = "Karte ir melnajā sarakstā.";
+"expired_token" = "Tekena derīguma termiņš ir beidzies.";
+"insufficient_funds" = "Nomaksas summa pārsniedz pieejamos līdzekļus vai kartes kredītlimitu.";
+
+"enter_card_details" = "Ievadiet kartes informāciju";
+"shift4_remembers" = "Shift4 atceras jūsu karti.";
+"authentication_required" = "Maksājumam ir nepieciešama kartes turētāja autentifikācija.";
+"Rate limit exceeded" = "Pārsniegts savienojumu limits";
+"enrolledCardIsRequired" = "Maksājumam ir nepieciešama kartes turētāja autentifikācija.";
+"successfulLiabilityShiftIsRequired" = "Maksājumam ir nepieciešama kartes turētāja autentifikācija.";
+
+"request_timedout" = "Tīkla pieprasījums beidzās. Pārbaudiet tīklu un mēģiniet vēlreiz.";
+"poor_connection" = "Slikts savienojums. Pārbaudiet tīklu un mēģiniet vēlreiz.";
+"unknown_connection_error" = "Savienojuma kļūda. Pārbaudiet tīklu un mēģiniet vēlreiz.";
+
+"loading_payment_info" = "Maksājuma informācijas ielāde...";
+"save_for_future_payments" = "Atcerēties mani Shift4";
+"name" = "Vārds";;
+"street" = "Street";;
+"zip" = "Pasta indekss";;.
+"city" = "Pilsēta";;;
+"country" = "Valsts";;;
+"vat" = "PVN numurs";;;
+"same_address_switch" = "Tā pati piegādes un norēķinu adrese";
+"billing" = "Norēķinu adrese";
+"shipping" = "Piegādes adrese";
+
+"shift4_safely_stores" = "Shift4 droši glabā jūsu kredītkartes datus.";

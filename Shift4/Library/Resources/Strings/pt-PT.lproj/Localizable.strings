@@ -1,0 +1,57 @@
+"add_payment" = "Adicionar pagamento";
+"select_amount" = "Seleccionar quantidade";
+"email" = "E-mail";
+"card_information" = "Informação do cartão";
+"card_number" = "número do cartão";
+"expiration" = "Data de expiração";
+"cvc" = "CVC";
+"enter_payment_data" = "Introduzir dados de pagamento";
+"confirm" = "Confirmar";
+"pay" = "Pay";
+"user_information" = "Informação do utilizador";
+"unlock_card_details" = "Detalhes do cartão de desbloqueio";
+"sms_code_info" = "Introduza o código que acabámos de enviar para o seu telemóvel";
+"card" = "Card";
+"no_code_info" = "Não obteve o código?";
+"invalid_email" = "email: Endereço de e-mail não válido.";
+"unknown_error" = " Erro desconhecido. Tente novamente ou contacte o suporte.";
+"invalid_number" = "O número do cartão não é um número de cartão válido.";
+"invalid_expiry_month" = "O mês de expiração do cartão\ é inválido.";
+"invalid_expiry_year" = "O ano de expiração do cartão\ é inválido.";
+"invalid_cvc" = "O código de segurança do seu cartão\ é inválido.";
+"incorrect_cvc" = "O código de segurança do cartão falhou na verificação.";
+"incorrect_zip" = "O código postal do cartão\\i1 falhou na verificação.";
+"expired_card" = "O cartão expirou.";
+"insufficient_funds" = "O montante da taxa excede o fundo disponível ou o limite de crédito do cartão.";
+"lost_or_stolen" = "O cartão é marcado como perdido ou roubado.";
+"suspected_fraud" = "A acusação é suspeita de ser fraudulenta.";
+"card_declined" = "O cartão foi recusado por outra razão.";
+"processing_error" = "Ocorreu um erro durante o processamento do cartão.";
+"blacklisted" = "O cartão está na lista negra.";
+"expired_token" = "A ficha expirou.";
+"insufficient_funds" = "O montante da taxa excede o fundo disponível ou o limite de crédito do cartão.";
+
+"enter_card_details" = "Introduza os detalhes do cartão";
+"shift4_remembers" = "Shift4 lembra-se do seu cartão.";
+"authentication_required" = "A cobrança requer autenticação do titular do cartão.";
+"Rate limit exceeded" = "O limite de ligações ultrapassou";
+"enrolledCardIsRequired" = "A cobrança requer autenticação do titular do cartão.";
+"successfulLiabilityShiftIsRequired" = "A cobrança requer autenticação do titular do cartão.";
+
+"request_timedout" = "O pedido de rede expirou. Verifique a sua rede e tente novamente.";
+"poor_connection" = "Ligação deficiente. Verifique a sua rede e tente novamente.";
+"unknown_connection_error" = "Erro de ligação. Verifique a sua rede e tente novamente.";
+
+"loading_payment_info" = "Carregamento de informação de pagamento...";
+"save_for_future_payments" = "Lembrar-se de mim no Shift4";
+"name" = "Nome";
+"street" = "Rua";
+"zip" = "Zip";
+"city" = "Cidade";
+"country" = "País";
+"vat" = "Número de IVA";
+"same_address_switch" = "O mesmo endereço de envio e facturação";
+"billing" = "Morada de facturação";
+"shipping" = "Endereço de expedição";
+
+"shift4_safely_stores" = "Shift4 armazena com segurança os dados do seu cartão de crédito.";

@@ -1,0 +1,57 @@
+"add_payment" = "Pridanie platby";
+"select_amount" = "Vyberte sumu";
+"email" = "E-mail";
+"card_information" = "Informácie o karte";
+"card_number" = "Číslo karty";
+"expiration" = "Dátum expirácie";
+"cvc" = "CVC";
+"enter_payment_data" = "Zadať platobné údaje";
+"confirm" = "Potvrdiť";
+"pay" = "Platba";
+"user_information" = "Informácie o používateľovi";
+"unlock_card_details" = "Odomknúť údaje o karte";
+"sms_code_info" = "Vložte kód, ktorý sme práve poslali na váš mobilný telefón";
+"card" = "Karta";
+"no_code_info" = "Nedostali ste kód?";
+"invalid_email" = "email: Neplatná e-mailová adresa.";
+"unknown_error" = "Neznáma chyba. Skúste to znova alebo kontaktujte podporu.";
+"invalid_number" = "Číslo karty nie je platné číslo karty.";
+"invalid_expiry_month" = "Mesiac platnosti karty je neplatný.";
+"invalid_expiry_year" = "Rok platnosti karty je neplatný.";
+"invalid_cvc" = "Bezpečnostný kód karty je neplatný.";
+"incorrect_cvc" = "Bezpečnostný kód karty sa nepodarilo overiť.";
+"incorrect_zip" = "Poštový kód karty sa nepodarilo overiť.";
+"expired_card" = "Karta stratila platnosť.";
+"insufficient_funds" = "Suma poplatku presahuje dostupné prostriedky alebo kreditný limit karty.";
+"lost_or_stolen" = "Karta je označená ako stratená alebo odcudzená.";
+"suspected_fraud" = "Podozrenie, že poplatok je podvodný.";
+"card_declined" = "Karta bola zamietnutá z iného dôvodu.";
+"processing_error" = "Pri spracovaní karty došlo k chybe.";
+"blacklisted" = "Karta je na čiernej listine.";
+"expired_token" = "Tokenu vypršala platnosť.";
+"insufficient_funds" = "Suma poplatku presahuje dostupné prostriedky alebo kreditný limit karty.";
+
+"enter_card_details" = "Zadajte údaje o karte";
+"shift4_remembers" = "Shift4 si pamätá vašu kartu.";
+"authentication_required" = "Úhrada si vyžaduje overenie držiteľa karty.";
+"Rate limit exceeded" = "Prekročený limit pripojenia";
+"enrolledCardIsRequired" = "Úhrada si vyžaduje overenie držiteľa karty.";
+"successfulLiabilityShiftIsRequired" = "Úhrada si vyžaduje overenie držiteľa karty.";
+
+"request_timedout" = "Sieťová požiadavka vypršala. Skontrolujte sieť a skúste to znova.";
+"poor_connection" = "Slabé pripojenie. Skontrolujte svoju sieť a skúste to znova.";
+"unknown_connection_error" = "Chyba spojenia. Skontrolujte svoju sieť a skúste to znova.";
+
+"loading_payment_info" = "Načítanie platobných informácií...";
+"save_for_future_payments" = "Zapamätať si ma v službe Shift4";
+"name" = "Meno";
+"street" = "Ulica";
+"zip" = "Poštové smerovacie číslo";
+"city" = "Mesto";
+"country" = "Krajina";
+"vat" = "Číslo DPH";
+"same_address_switch" = "Rovnaká dodacia a fakturačná adresa";
+"billing" = "Fakturačná adresa";
+"shipping" = "Zasielacia adresa";
+
+"shift4_safely_stores" = "Shift4 bezpečne uchováva údaje o vašej kreditnej karte.";

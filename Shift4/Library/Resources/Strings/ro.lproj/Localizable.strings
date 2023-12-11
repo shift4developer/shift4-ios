@@ -1,0 +1,62 @@
+"add_payment" = "Adaugă plata";
+"select_amount" = "Selectează suma";
+"email" = "E-mail";
+"card_information" = "Informații despre card";
+"card_number" = "Numărul cardului";
+"expiration" = "Data de expirare";
+"cvc" = "CVC";
+"enter_payment_data" = "Introduceți datele de plată";
+"confirm" = "Confirmă";
+"pay" = "Pay";
+"user_information" = "Informații utilizator";
+"unlock_card_details" = "Deblochează detaliile cardului";
+"sms_code_info" = "Inscrieți codul pe care tocmai vi l-am trimis pe telefonul mobil";
+"card" = "Card";
+"no_code_info" = "Nu ați primit codul?";
+"invalid_email" = "email: Adresa de e-mail invalidă.";
+"unknown_error" = "Eroare necunoscută. Încercați din nou sau contactați serviciul de asistență.";
+"invalid_number" = "Numărul cardului nu este un număr de card valid.";
+"invalid_expiry_month" = "Luna de expirare a cardului nu este validă.";
+"invalid_expiry_year" = "Anul de expirare al cardului nu este valabil.";
+"invalid_cvc" = "Codul de securitate al cardului dvs. nu este valid.";
+"incorrect_cvc" = "Codul de securitate al cardului nu a reușit să fie verificat.";
+"incorrect_zip" = "Codul poștal al cardului nu a reușit să fie verificat.";
+"expired_card" = "Cardul a expirat.";
+"insufficient_funds" = "Măreția debitului depășește fondul disponibil sau limita de credit a cardului.";
+"lost_or_stolen" = "Cardul este marcat ca fiind pierdut sau furat.";
+"suspected_fraud" = "Se suspectează că taxa este frauduloasă.";
+"card_declined" = "Cardul a fost refuzat din alt motiv.";
+"processing_error" = "A apărut o eroare în timpul procesării cardului.";
+"blacklisted" = "Cardul este pe lista neagră.";
+"expired_token" = "Tokenul a expirat.";
+"insufficient_funds" = "Măreția debitului depășește fondul disponibil sau limita de credit a cardului.";
+
+"enter_card_details" = "Introduceți detaliile cardului";
+"shift4_remembers" = "Shift4 ține minte cardul dumneavoastră.";
+"authentication_required" = "Încărcarea necesită autentificarea titularului de card.";
+"Rate limit exceeded" = "Limita conexiunilor a fost depășită";
+"enrolledCardIsRequired" = "Încărcarea necesită autentificarea titularului de card.";
+"successfulLiabilityShiftIsRequired" = "Încărcarea necesită autentificarea titularului de card.";
+
+"request_timedout" = "Solicitarea rețelei a fost expirată. Verificați rețeaua și încercați din nou.";
+"poor_connection" = "Conexiune slabă. Verificați rețeaua și încercați din nou.";
+"unknown_connection_error" = "Eroare de conexiune. Verificați rețeaua și încercați din nou.";
+
+"loading_payment_info" = "Încărcarea informațiilor de plată...";
+"save_for_future_payments" = "Ține-mă minte în Shift4";
+"name" = "Nume";
+"street" = "Strada";
+"zip" = "Cod poștal";
+"city" = "Oraș";
+"country" = "Țara";
+"vat" = "VAT number";
+"same_address_switch" = "Aceeași adresă de expediere și de facturare";
+"billing" = "Adresa de facturare";
+"shipping" = "Adresa de expediere";
+
+"shift4_safely_stores" = "Shift4 stochează în siguranță datele cardului dvs. de credit.";
+
+
+
+
+

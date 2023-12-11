@@ -1,0 +1,57 @@
+"add_payment" = "Fizetés hozzáadása";
+"select_amount" = "Az összeg kiválasztása";
+"email" = "E-mail";
+"card_information" = "Card information";
+"card_number" = "Kártyaszám";
+"expiration" = "Az érvényességi idő";
+"cvc" = "CVC";
+"enter_payment_data" = "Fizetési adatok megadása";
+"confirm" = "Megerősítés";
+"pay" = "Fizessen";
+"user_information" = "A felhasználó adatai";
+"unlock_card_details" = "Kártyaadatok feloldása";
+"sms_code_info" = "Adja meg a kódot, amelyet az imént küldtünk a mobiltelefonjára";
+"card" = "Kártya";
+"no_code_info" = "Nem kapta meg a kódot?";
+"invalid_email" = "email: Elérhetetlen e-mail cím.";
+"unknown_error" = "Nem ismert hiba. Próbálja újra, vagy lépjen kapcsolatba az ügyfélszolgálattal.";
+"invalid_number" = "A kártyaszám nem érvényes kártyaszám.";
+"invalid_expiry_month" = "A kártya\ lejárati hónapja érvénytelen.";
+"invalid_expiry_year" = "A kártya lejárati éve érvénytelen.";
+"invalid_cvc" = "A kártya\ biztonsági kódja érvénytelen.";
+"incorrect_cvc" = "A kártya biztonsági kódjának ellenőrzése sikertelen volt.";
+"incorrect_zip" = "A kártya irányítószámának ellenőrzése sikertelen volt.";
+"expired_card" = "A kártya lejárt.";
+"insufficient_funds" = "A terhelés összege meghaladja a rendelkezésre álló összeget vagy a kártya\ hitelkeretét.";
+"lost_or_stolen" = "A kártyát elveszettnek vagy lopottnak jelölték.";
+"suspected_fraud" = "A terhelés feltételezhetően csalárd.";
+"card_declined" = "A kártyát egyéb okból elutasították.";
+"processing_error" = "Hiba történt a kártya feldolgozása során.";
+"blacklisted" = "A kártya feketelistára került.";
+"expired_token" = "A token lejárt.";
+"insufficient_funds" = "A terhelés összege meghaladja a rendelkezésre álló összeget vagy a kártya hitelkeretét.";
+
+"enter_card_details" = "Kártyaadatok megadása";
+"shift4_remembers" = "A Shift4 megjegyzi a kártyáját.";
+"authentication_required" = "A terheléshez kártyabirtokos-hitelesítésre van szükség.";
+"Rate limit exceeded" = "Csatlakozási limit túllépve";
+"enrolledCardIsRequired" = "A terheléshez kártyabirtokos-hitelesítésre van szükség.";
+"successfulLiabilityShiftIsRequired" = "A terheléshez kártyabirtokos-hitelesítésre van szükség.";
+
+"request_timedout" = "A hálózati kérés időzített. Ellenőrizze a hálózatot és próbálja újra.";
+"poor_connection" = "Gyenge kapcsolat. Ellenőrizze a hálózatot és próbálja újra.";
+"unknown_connection_error" = "Kapcsolati hiba. Ellenőrizze a hálózatát és próbálja újra.";
+
+"loading_payment_info" = "Fizetési adatok betöltése...";
+"save_for_future_payments" = "Emlékezz rám a Shift4-ben";
+"name" = "Keresztnév";;
+"street" = "Utca";;
+"zip" = "Irányítószám";;;.
+"city" = "Város";;;
+"country" = "Ország";;;
+"vat" = "ÁFA szám";;;
+"same_address_switch" = "Ugyanaz a szállítási és számlázási cím";
+"billing" = "Számlázási cím";
+"shipping" = "Szállítási cím";
+
+"shift4_safely_stores" = "A Shift4 biztonságosan tárolja a hitelkártyaadatokat.";

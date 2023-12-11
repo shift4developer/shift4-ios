@@ -1,0 +1,57 @@
+"add_payment" = "Lisää maksu";
+"select_amount" = "Valitse summa";
+"email" = "Sähköposti";
+"card_information" = "Kortin tiedot";
+"card_number" = "Kortin numero";
+"expiration" = "Lopetuspäivä";
+"cvc" = "CVC";
+"enter_payment_data" = "Syötä maksutiedot";
+"confirm" = "Vahvista";
+"pay" = "Maksa";
+"user_information" = "Käyttäjän tiedot";
+"unlock_card_details" = "Poista kortin tiedot";
+"sms_code_info" = "Kirjoita koodi, jonka olemme juuri lähettäneet matkapuhelimeesi";
+"card" = "Card";
+"no_code_info" = "Et saanut koodia?";
+"invalid_email" = "email: Väärennetty sähköpostiosoite.";
+"unknown_error" = "Tuntematon virhe. Yritä uudelleen tai ota yhteyttä asiakaspalveluun.";
+"invalid_number" = "Kortin numero ei ole kelvollinen kortin numero.";
+"invalid_expiry_month" = "Kortin voimassaolon päättymiskuukausi on virheellinen.";
+"invalid_expiry_year" = "Kortin viimeinen voimassaolovuosi on virheellinen.";
+"invalid_cvc" = "Korttisi turvakoodi on virheellinen.";
+"incorrect_cvc" = "Kortin turvakoodin vahvistus epäonnistui.";
+"incorrect_zip" = "Kortin postinumero epäonnistui vahvistuksessa.";
+"expired_card" = "Kortti on vanhentunut.";
+"insufficient_funds" = "Latauksen määrä ylittää käytettävissä olevat varat tai kortin\ luottorajan.";
+"lost_or_stolen" = "Kortti on merkitty kadonneeksi tai varastetuksi.";
+"suspected_fraud" = "Latauksen epäillään olevan vilpillinen.";
+"card_declined" = "Kortti on hylätty muusta syystä.";
+"processing_error" = "Kortin käsittelyssä tapahtui virhe.";
+"blacklisted" = "Kortti on mustalla listalla.";
+"expired_token" = "Kortin tunniste on vanhentunut.";
+"insufficient_funds" = "Lataussumma ylittää käytettävissä olevat varat tai kortin luottorajan.";
+
+"enter_card_details" = "Anna kortin tiedot";
+"shift4_remembers" = "Shift4 muistaa korttisi.";
+"authentication_required" = "Veloitus edellyttää kortinhaltijan todentamista.";
+"Rate limit exceeded" = "Liittymien raja ylitetty";
+"enrolledCardIsRequired" = "Veloitus edellyttää kortinhaltijan todentamista.";
+"successfulLiabilityShiftIsRequired" = "Veloitus edellyttää kortinhaltijan todentamista.";
+
+"request_timedout" = "Verkkopyyntö on päättynyt. Tarkista verkko ja yritä uudelleen.";
+"poor_connection" = "Huono yhteys. Tarkista verkko ja yritä uudelleen.";
+"unknown_connection_error" = "Yhteysvirhe. Tarkista verkko ja yritä uudelleen.";
+
+"loading_payment_info" = "Maksutietojen lataaminen...";
+"save_for_future_payments" = "Muista minut Shift4:ssä";
+"name" = "Etunimi";;
+"street" = "Katu";;
+"zip" = "Postinumero";;;.
+"city" = "Kaupunki";;;
+"country" = "Maa";;;
+"vat" = "Alv-numero";;;
+"same_address_switch" = "Sama toimitus- ja laskutusosoite";
+"billing" = "Laskutusosoite";
+"shipping" = "Toimitusosoite";
+
+"shift4_safely_stores" = "Shift4 tallentaa luottokorttitietosi turvallisesti.";

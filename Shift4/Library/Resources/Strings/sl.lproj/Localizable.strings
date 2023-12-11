@@ -1,0 +1,57 @@
+"add_payment" = "Dodaj plačilo";
+"select_amount" = "Izberite znesek";
+"email" = "E-mail";
+"card_information" = "Informacije o kartici";
+"card_number" = "Številka_kartice";
+"expiration" = "Datum veljavnosti";
+"cvc" = "CVC";
+"enter_payment_data" = "Vnesite podatke o plačilu";
+"confirm" = "Potrdi";
+"pay" = "Plačati";
+"user_information" = "Informacije o uporabniku";
+"unlock_card_details" = "Odkleni podatke o kartici";
+"sms_code_info" = "Vnesite kodo, ki smo jo pravkar poslali na vaš mobilni telefon";
+"card" = "Kartica";
+"no_code_info" = "Ne prejmete kode?";
+"invalid_email" = "email: Nepravilen e-poštni naslov.";
+"unknown_error" = "Neznana napaka. Poskusite znova ali se obrnite na podporo.";
+"invalid_number" = "Številka kartice ni veljavna.";
+"invalid_expiry_month" = "Mesec veljavnosti kartice je neveljaven.";
+"invalid_expiry_year" = "Leto veljavnosti kartice je neveljavno.";
+"invalid_cvc" = "Varnostna koda vaše kartice je neveljavna.";
+"incorrect_cvc" = "Varnostna koda kartice ni bila preverjena.";
+"incorrect_zip" = "Poštna številka kartice ni bila preverjena.";
+"expired_card" = "Kartica je potekla.";
+"insufficient_funds" = "Znesek obremenitve presega razpoložljiva sredstva ali kreditni limit kartice.";
+"lost_or_stolen" = "Kartica je označena kot izgubljena ali ukradena.";
+"suspected_fraud" = "Za polnjenje se sumi, da je goljufivo.";
+"card_declined" = "Kartica je bila zavrnjena iz drugega razloga.";
+"processing_error" = "Pri obdelavi kartice je prišlo do napake.";
+"blacklisted" = "Kartica je na črnem seznamu.";
+"expired_token" = "Znamek je potekel.";
+"insufficient_funds" = "Znesek obremenitve presega razpoložljiva sredstva ali kreditni limit kartice.";
+
+"enter_card_details" = "Vnesite podatke o kartici";
+"shift4_remembers" = "Shift4 si zapomni vašo kartico.";
+"authentication_required" = "Obračun zahteva avtentikacijo imetnika kartice.";
+"Rate limit exceeded" = "Presežena omejitev povezav";
+"enrolledCardIsRequired" = "Obračun zahteva avtentikacijo imetnika kartice.";
+"successfulLiabilityShiftIsRequired" = "Obračun zahteva avtentikacijo imetnika kartice.";
+
+"request_timedout" = "Omrežna zahteva se je iztekla. Preverite omrežje in poskusite znova.";
+"poor_connection" = "Slaba povezava. Preverite svoje omrežje in poskusite znova.";
+"unknown_connection_error" = "Napaka povezave. Preverite svoje omrežje in poskusite znova.";
+
+"loading_payment_info" = "Nalaganje podatkov o plačilu...";
+"save_for_future_payments" = "Zapomni si me v Shift4";
+"name" = "Ime";
+"street" = "Ulica";
+"zip" = "Poštna številka";
+"city" = "Mesto";
+"country" = "Država";
+"vat" = "Številka DDV";
+"same_address_switch" = "Isti naslov za pošiljanje in zaračunavanje";
+"billing" = "Obračunski naslov";
+"shipping" = "Naslov za pošiljanje";
+
+"shift4_safely_stores" = "Shift4 varno hrani podatke o vaši kreditni kartici.";

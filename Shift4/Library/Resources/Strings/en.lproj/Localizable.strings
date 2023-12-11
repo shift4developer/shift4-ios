@@ -1,0 +1,59 @@
+"add_payment" = "Add payment";
+"select_amount" = "Select amount";
+"email" = "E-mail";
+"card_information" = "Card information";
+"card_number" = "Card number";
+"expiration" = "Expiration date";
+"cvc" = "CVC";
+"save_for_future_payments" = "Remember me in Shift4";
+"enter_payment_data" = "Enter payment data";
+"confirm" = "Confirm";
+"pay" = "Pay";
+"user_information" = "User information";
+"unlock_card_details" = "Unlock card details";
+"sms_code_info" = "Enter the code we've just sent to your mobile phone";
+"card" = "Card";
+"no_code_info" = "Didn't get the code?";
+
+"unknown_error" = "Unknown error. Try again or contact support.";
+
+"invalid_email" = "email: Invalid e-mail address";
+"invalid_number" = "The card number is not a valid credit card number.";
+"invalid_expiry_month" = "The card's expiration month is invalid.";
+"invalid_expiry_year" = "The card's expiration year is invalid.";
+"invalid_cvc" = "Your card's security code is invalid.";
+"incorrect_cvc" = "The card's security code failed verification.";
+"incorrect_zip" = "The card's zip code failed verification.";
+"expired_card" = "The card has expired.";
+"insufficient_funds" = "The charge amount exceeds the available funds or the card's credit limit.";
+"lost_or_stolen" = "The card is marked as lost or stolen.";
+"suspected_fraud" = "The charge is suspected to be fraudulent.";
+"card_declined" = "The card was declined.";
+"processing_error" = "An error occurred while processing the card.";
+"blacklisted" = "The card is blacklisted.";
+"expired_token" = "The token has expired.";
+"insufficient_funds" = "The charge amount exceeds the available funds or the card's credit limit.";
+
+"enter_card_details" = "Enter card details";
+"shift4_remembers" = "Shift4 remembers your card.";
+"authentication_required" = "The charge requires cardholder authentication.";
+"Rate limit exceeded" = "Rate limit exceeded";
+"enrolledCardIsRequired" = "The charge requires cardholder authentication.";
+"successfulLiabilityShiftIsRequired" = "The charge requires cardholder authentication.";
+
+"request_timedout" = "Network request timed out. Check your network and try again.";
+"poor_connection" = "Poor connection. Check your network and try again.";
+"unknown_connection_error" = "Connection error. Check your network and try again.";
+
+"loading_payment_info" = "Loading payment information...";
+"name" = "Name";
+"street" = "Street";
+"zip" = "Zip";
+"city" = "City";
+"country" = "Country";
+"vat" = "VAT number";
+"same_address_switch" = "Same shipping and billing address";
+"billing" = "Billing address";
+"shipping" = "Shipping address";
+
+"shift4_safely_stores" = "Shift4 safely stores your credit card data.";

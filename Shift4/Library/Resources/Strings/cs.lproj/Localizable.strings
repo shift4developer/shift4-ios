@@ -1,0 +1,57 @@
+"add_payment" = "Přidat platbu";
+"select_amount" = "Výběr částky";
+"email" = "E-mail";
+"card_information" = "Informace o kartě";
+"card_number" = "Číslo karty";
+"expiration" = "Datum expirace";
+"cvc" = "CVC";
+"enter_payment_data" = "Zadání platebních údajů";
+"confirm" = "Potvrdit";
+"pay" = "Platba";
+"user_information" = "Informace o uživateli";
+"unlock_card_details" = "Odemknout údaje o kartě";
+"sms_code_info" = "Zadejte kód, který jsme právě zaslali na váš mobilní telefon";
+"card" = "Karta";
+"no_code_info" = "Nedostali jste kód?";
+"invalid_email" = "email: Neplatná e-mailová adresa.";
+"unknown_error" = "Neznámá chyba. Zkuste to znovu nebo kontaktujte podporu.";
+"invalid_number" = "Číslo karty není platné.";
+"invalid_expiry_month" = "Měsíc platnosti karty je neplatný.";
+"invalid_expiry_year" = "Rok platnosti karty je neplatný.";
+"invalid_cvc" = "Bezpečnostní kód karty je neplatný.";
+"incorrect_cvc" = "Bezpečnostní kód karty se nepodařilo ověřit.";
+"incorrect_zip" = "Poštovní směrovací číslo karty se nepodařilo ověřit.";
+"expired_card" = "Karta pozbyla platnosti.";
+"insufficient_funds" = "Suma poplatku přesahuje dostupné prostředky nebo úvěrový limit karty.";
+"lost_or_stolen" = "Karta je označena jako ztracená nebo odcizená.";
+"suspected_fraud" = "Účet je podezřelý z podvodu.";
+"card_declined" = "Karta byla odmítnuta z jiného důvodu.";
+"processing_error" = "Při zpracování karty došlo k chybě.";
+"blacklisted" = "Karta je na černé listině.";
+"expired_token" = "Token vypršel.";
+"insufficient_funds" = "Suma poplatku přesahuje dostupné prostředky nebo úvěrový limit karty.";
+
+"enter_card_details" = "Zadejte údaje o kartě";
+"shift4_remembers" = "Shift4 si vaši kartu pamatuje.";
+"authentication_required" = "Poplatek vyžaduje ověření držitele karty.";
+"Rate limit exceeded" = "Překročení limitu připojení";
+"enrolledCardIsRequired" = "Poplatek vyžaduje ověření držitele karty.";
+"successfulLiabilityShiftIsRequired" = "Poplatek vyžaduje ověření držitele karty.";
+
+"request_timedout" = "Síťový požadavek vypršel. Zkontrolujte síť a zkuste to znovu.";
+"poor_connection" ="Špatné připojení. Zkontrolujte síť a zkuste to znovu.";
+"unknown_connection_error" = "Chyba připojení. Zkontrolujte síť a zkuste to znovu.";
+
+"loading_payment_info" = "Načítání informací o platbě...";
+"save_for_future_payments" = "Zapamatuj si mě v Shift4";
+"name" = "Křestní jméno";;
+"street" = "Street";;
+"zip" = "PSČ";;;.
+"city" = "Město";;;
+"country" = "Země";;;
+"vat" = "DIČ";;
+"same_address_switch" = "Stejná dodací a fakturační adresa";
+"billing" = "Fakturační adresa";
+"shipping" = "Adresa pro doručení";
+
+"shift4_safely_stores" = "Shift4 bezpečně ukládá údaje o vaší kreditní kartě.";

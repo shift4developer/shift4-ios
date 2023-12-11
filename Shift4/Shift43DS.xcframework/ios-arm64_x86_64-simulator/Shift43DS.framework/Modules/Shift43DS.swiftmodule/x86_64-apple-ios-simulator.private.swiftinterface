@@ -1,0 +1,366 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Shift43DS
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
+import CoreLocation
+import CryptoKit
+import Foundation
+import Security
+@_exported import Shift43DS
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+
+public struct ProtocolErrorMessageRequest : Swift.Encodable, Swift.Equatable {
+  public init(messageVersion: Swift.String, threeDSServerTransID: Swift.String, acsTransID: Swift.String, sdkTransID: Swift.String, errorMessageType: Swift.String, errorCode: Swift.String, errorComponent: Swift.String, errorDescription: Swift.String, errorDetail: Swift.String)
+  public let messageType: Swift.String
+  public let messageVersion: Swift.String
+  public let threeDSServerTransID: Swift.String
+  public let acsTransID: Swift.String
+  public let sdkTransID: Swift.String
+  public let errorMessageType: Swift.String
+  public let errorCode: Swift.String
+  public let errorComponent: Swift.String
+  public let errorDescription: Swift.String
+  public let errorDetail: Swift.String
+  public static func == (a: Shift43DS.ProtocolErrorMessageRequest, b: Shift43DS.ProtocolErrorMessageRequest) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers final public class Transaction {
+  final public func getAuthenticationRequestParameters() throws -> Shift43DS.AuthenticationRequestParameters
+  final public func doChallenge(challengeParameters: Shift43DS.ChallengeParameters, challengeStatusReceiver: Shift43DS.ChallengeStatusReceiver, timeout: Swift.Int, inViewController: UIKit.UIViewController) throws
+  final public func getProgressView() throws -> Shift43DS.ProgressDialog
+  final public func close() throws
+  @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func addSubview(_ subview: UIKit.UIView, constraints: [UIKit.NSLayoutConstraint])
+  @_Concurrency.MainActor(unsafe) public func addSubviewAndPinToEdges(_ subview: UIKit.UIView, pinToSafeArea: Swift.Bool = false)
+}
+extension UIKit.UIColor {
+  public var hexString: Swift.String {
+    get
+  }
+  convenience public init?(hexString: Swift.String)
+}
+@_hasMissingDesignatedInitializers final public class ButtonCustomization : Shift43DS.Customization {
+  convenience public init()
+  final public func setBackgroundColor(hexColorCode: Swift.String) throws
+  final public func setBackgroundColor(_ backgroundColor: UIKit.UIColor)
+  final public func setCornerRadius(cornerRadius: Swift.Int) throws
+  final public func getBackgroundColor() -> Swift.String
+  final public func getBackgroundColor() -> UIKit.UIColor
+  final public func getCornerRadius() -> Swift.Int
+  @objc deinit
+}
+extension Shift43DS.ButtonCustomization : Swift.Equatable {
+  public static func == (lhs: Shift43DS.ButtonCustomization, rhs: Shift43DS.ButtonCustomization) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers public class Customization {
+  public func setTextFontName(fontName: Swift.String) throws
+  public func setTextColor(hexColorCode: Swift.String) throws
+  public func setTextColor(_ textColor: UIKit.UIColor)
+  public func setTextFontSize(fontSize: Swift.Int) throws
+  public func getTextFontName() -> Swift.String
+  public func getTextColor() -> Swift.String
+  public func getTextColor() -> UIKit.UIColor
+  public func getTextFontSize() -> Swift.Int
+  @objc deinit
+}
+public struct Shift4SwitchStyle {
+  public init(labelFont: UIKit.UIFont, labelTextColor: UIKit.UIColor, infoLabelFont: UIKit.UIFont, infoLabelTextColor: UIKit.UIColor, tintColor: UIKit.UIColor)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class Shift4Switch : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) final public var title: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var subtitle: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var isOn: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var isEnabled: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var switchHidden: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var accessibilityIdentifier: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) final public var onChange: (Swift.Bool) -> Swift.Void
+  @_Concurrency.MainActor(unsafe) public init(style: Shift43DS.Shift4SwitchStyle)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class LabelCustomization : Shift43DS.Customization {
+  convenience public init()
+  final public func setHeadingTextColor(hexColorCode: Swift.String) throws
+  final public func setHeadingTextColor(_ headingTextColor: UIKit.UIColor)
+  final public func setHeadingTextFontName(fontName: Swift.String) throws
+  final public func setHeadingTextFontSize(fontSize: Swift.Int) throws
+  final public func getHeadingTextColor() -> Swift.String
+  final public func getHeadingTextColor() -> UIKit.UIColor
+  final public func getHeadingTextFontName() -> Swift.String
+  final public func getHeadingTextFontSize() -> Swift.Int
+  @objc deinit
+}
+extension Shift43DS.LabelCustomization : Swift.Equatable {
+  public static func == (lhs: Shift43DS.LabelCustomization, rhs: Shift43DS.LabelCustomization) -> Swift.Bool
+}
+public enum Severity {
+  case LOW
+  case MEDIUM
+  case HIGH
+  public static func == (a: Shift43DS.Severity, b: Shift43DS.Severity) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ProtocolErrorEvent {
+  public init(errorMessage: Shift43DS.ErrorMessage, sdkTransactionID: Swift.String)
+  public func getErrorMessage() -> Shift43DS.ErrorMessage
+  public func getSDKTransactionID() -> Swift.String
+}
+extension Shift43DS.ProtocolErrorEvent : Swift.Equatable {
+  public static func == (a: Shift43DS.ProtocolErrorEvent, b: Shift43DS.ProtocolErrorEvent) -> Swift.Bool
+}
+public enum MessageVersion : Swift.String {
+  case version210
+  case version220
+  case version231
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class UiCustomization {
+  public enum ButtonType : Swift.CaseIterable {
+    case SUBMIT
+    case CONTINUE
+    case NEXT
+    case CANCEL
+    case RESEND
+    case OPEN_OOB_APP
+    case ADD_CH
+    public static func == (a: Shift43DS.UiCustomization.ButtonType, b: Shift43DS.UiCustomization.ButtonType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public typealias AllCases = [Shift43DS.UiCustomization.ButtonType]
+    public static var allCases: [Shift43DS.UiCustomization.ButtonType] {
+      get
+    }
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  convenience public init()
+  final public func setButtonCustomization(buttonCustomization: Shift43DS.ButtonCustomization, buttonType: Shift43DS.UiCustomization.ButtonType) throws
+  final public func setToolbarCustomization(toolbarCustomization: Shift43DS.ToolbarCustomization) throws
+  final public func setLabelCustomization(labelCustomization: Shift43DS.LabelCustomization) throws
+  final public func setTextBoxCustomization(textBoxCustomization: Shift43DS.TextBoxCustomization) throws
+  final public func setBackgroundColor(backgroundColor: UIKit.UIColor)
+  final public func getButtonCustomization(buttonType: Shift43DS.UiCustomization.ButtonType) -> Shift43DS.ButtonCustomization
+  final public func getToolbarCustomization() -> Shift43DS.ToolbarCustomization
+  final public func getLabelCustomization() -> Shift43DS.LabelCustomization
+  final public func getTextBoxCustomization() -> Shift43DS.TextBoxCustomization
+  final public func getBackgroundColor() -> UIKit.UIColor
+  @objc deinit
+}
+extension Swift.String {
+  public static var empty: Swift.String {
+    get
+  }
+  public func sanitized() -> Swift.String
+  public func fromBase64() -> Swift.String?
+  public func toBase64() -> Swift.String
+}
+extension Swift.Optional where Wrapped == Swift.String {
+  public var orEmpty: Swift.String {
+    get
+  }
+  public var isNilOrEmpty: Swift.Bool {
+    get
+  }
+  public var isNotNilAndNotEmpty: Swift.Bool {
+    get
+  }
+}
+final public class ThreeDS2Service {
+  public init()
+  final public func initialize(configParameters: Shift43DS.ConfigParameters, locale: Swift.String?, uiCustomization: Shift43DS.UiCustomization?) throws
+  final public func createTransaction(directoryServerID: Swift.String, messageVersion: Swift.String? = nil) throws -> Shift43DS.Transaction
+  final public func cleanup() throws
+  final public func getSDKVersion() throws -> Swift.String
+  final public func getWarnings() throws -> [Shift43DS.Warning]
+  @objc deinit
+}
+public struct CompletionEvent {
+  public func getSDKTransactionID() -> Swift.String
+  public func getTransactionStatus() -> Swift.String
+}
+extension Shift43DS.CompletionEvent : Swift.Equatable {
+  public static func == (a: Shift43DS.CompletionEvent, b: Shift43DS.CompletionEvent) -> Swift.Bool
+}
+public struct RuntimeErrorEvent {
+  public init(errorMessage: Swift.String, errorCode: Swift.String? = nil)
+  public func getErrorCode() -> Swift.String?
+  public func getErrorMessage() -> Swift.String
+}
+extension Shift43DS.RuntimeErrorEvent : Swift.Equatable {
+  public static func == (a: Shift43DS.RuntimeErrorEvent, b: Shift43DS.RuntimeErrorEvent) -> Swift.Bool
+}
+public struct ErrorMessage {
+  public init(transactionID: Swift.String, errorCode: Swift.String, errorDescription: Swift.String, errorDetails: Swift.String)
+  public func getTransactionID() -> Swift.String
+  public func getErrorCode() -> Swift.String
+  public func getErrorDescription() -> Swift.String
+  public func getErrorDetails() -> Swift.String
+}
+extension Shift43DS.ErrorMessage : Swift.Equatable {
+  public static func == (a: Shift43DS.ErrorMessage, b: Shift43DS.ErrorMessage) -> Swift.Bool
+}
+public struct Warning {
+  public init(id: Swift.String, message: Swift.String, severity: Shift43DS.Severity)
+  public func getID() -> Swift.String
+  public func getMessage() -> Swift.String
+  public func getSeverity() -> Shift43DS.Severity
+}
+@_hasMissingDesignatedInitializers final public class ToolbarCustomization : Shift43DS.Customization {
+  convenience public init()
+  final public func setBackgroundColor(hexColorCode: Swift.String) throws
+  final public func setBackgroundColor(_ backgroundColor: UIKit.UIColor)
+  final public func setHeaderText(headerText: Swift.String) throws
+  final public func setButtonText(buttonText: Swift.String) throws
+  final public func getBackgroundColor() -> Swift.String
+  final public func getBackgroundColor() -> UIKit.UIColor
+  final public func getHeaderText() -> Swift.String
+  final public func getButtonText() -> Swift.String
+  @objc deinit
+}
+extension Shift43DS.ToolbarCustomization : Swift.Equatable {
+  public static func == (lhs: Shift43DS.ToolbarCustomization, rhs: Shift43DS.ToolbarCustomization) -> Swift.Bool
+}
+public struct AuthenticationRequestParameters : Swift.Encodable {
+  public init(messageType: Swift.String, messageVersion: Swift.String, deviceChannel: Swift.String, sdkTransID: Swift.String, sdkAppID: Swift.String, sdkReferenceNumber: Swift.String, sdkEphemPubKey: Swift.String, sdkEncData: Swift.String, sdkMaxTimeout: Swift.String, sdkInterface: Swift.String, sdkUiType: Swift.String)
+  public func getDeviceData() -> Swift.String
+  public func getSDKTransactionID() -> Swift.String
+  public func getSDKAppID() -> Swift.String
+  public func getSDKReferenceNumber() -> Swift.String
+  public func getSDKEphemeralPublicKey() -> Swift.String
+  public func getMessageVersion() -> Swift.String
+  public func getAuthRequest() -> Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class ProgressDialog {
+  public func show()
+  public func close()
+  @objc deinit
+}
+public struct ConfigParameters {
+  public init(bundleIdentifier: Swift.String, directoryServerInfo: [Shift43DS.DirectoryServerInfo] = [], excludedDeviceParameters: [Swift.String] = [])
+  public mutating func addParam(group: Swift.String? = nil, paramName: Swift.String, paramValue: Swift.String) throws
+  public mutating func getParamValue(group: Swift.String? = nil, paramName: Swift.String) throws -> Swift.String?
+  public mutating func removeParam(group: Swift.String? = nil, paramName: Swift.String) throws -> Swift.String?
+}
+public struct DirectoryServerInfo {
+  public init(RID: Swift.String, publicKey: Swift.String, CAs: [Swift.String])
+}
+public struct ChallengeParameters {
+  public init()
+  public init(threeDSServerAuthResponse: Swift.String, threeDSRequestorAppURL: Swift.String) throws
+  public mutating func set3DSServerTransactionID(_ transactionID: Swift.String)
+  public mutating func setAcsTransactionID(_ transactionID: Swift.String)
+  public mutating func setAcsRefNumber(_ refNumber: Swift.String)
+  public mutating func setAcsSignedContent(_ signedContent: Swift.String)
+  public mutating func setThreeDSRequestorAppURL(_ threeDSRequestorAppURL: Swift.String?)
+  public func get3DSServerTransactionID() -> Swift.String
+  public func getAcsTransactionID() -> Swift.String
+  public func getAcsRefNumber() -> Swift.String
+  public func getAcsSignedContent() -> Swift.String
+  public func getThreeDSRequestorAppURL() -> Swift.String?
+}
+@_hasMissingDesignatedInitializers final public class TextBoxCustomization : Shift43DS.Customization {
+  convenience public init()
+  final public func setCornerRadius(cornerRadius: Swift.Int) throws
+  final public func getCornerRadius() -> Swift.Int
+  final public func setBorderWidth(borderWidth: Swift.Int) throws
+  final public func setBorderColor(hexColorCode: Swift.String) throws
+  final public func setBorderColor(_ borderColor: UIKit.UIColor)
+  final public func getBorderWidth() -> Swift.Int
+  final public func getBorderColor() -> Swift.String
+  final public func getBorderColor() -> UIKit.UIColor
+  @objc deinit
+}
+extension Shift43DS.TextBoxCustomization : Swift.Equatable {
+  public static func == (lhs: Shift43DS.TextBoxCustomization, rhs: Shift43DS.TextBoxCustomization) -> Swift.Bool
+}
+public protocol ChallengeStatusReceiver : AnyObject {
+  func completed(completionEvent: Shift43DS.CompletionEvent)
+  func cancelled()
+  func timedout()
+  func protocolError(protocolErrorEvent: Shift43DS.ProtocolErrorEvent)
+  func runtimeError(runtimeErrorEvent: Shift43DS.RuntimeErrorEvent)
+}
+@_hasMissingDesignatedInitializers final public class FontsLoader {
+  public static func loadFontsIfNeeded()
+  @objc deinit
+}
+extension UIKit.UIFont {
+  @discardableResult
+  public static func registerFont(bundle: Foundation.Bundle, fontName: Swift.String, fontExtension: Swift.String) -> Swift.Bool
+}
+public struct Shift4ButtonStyle {
+  public init(cornerRadius: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat, primaryColor: UIKit.UIColor, successColor: UIKit.UIColor, font: UIKit.UIFont, textColor: UIKit.UIColor, disabledColor: UIKit.UIColor)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class Shift4Button : UIKit.UIView {
+  public enum State {
+    case normal
+    case pending
+    case finished
+    public static func == (a: Shift43DS.Shift4Button.State, b: Shift43DS.Shift4Button.State) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) final public var title: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var image: UIKit.UIImage? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var uppercased: Swift.Bool
+  @_Concurrency.MainActor(unsafe) final public var didTap: (() -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) final public var enabled: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var accessibilityIdentifier: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public init(style: Shift43DS.Shift4ButtonStyle)
+  @_Concurrency.MainActor(unsafe) final public func changeState(to state: Shift43DS.Shift4Button.State, animated: Swift.Bool = true)
+  @objc deinit
+}
+extension Shift43DS.Severity : Swift.Equatable {}
+extension Shift43DS.Severity : Swift.Hashable {}
+extension Shift43DS.MessageVersion : Swift.Equatable {}
+extension Shift43DS.MessageVersion : Swift.Hashable {}
+extension Shift43DS.MessageVersion : Swift.RawRepresentable {}
+extension Shift43DS.UiCustomization.ButtonType : Swift.Equatable {}
+extension Shift43DS.UiCustomization.ButtonType : Swift.Hashable {}
+extension Shift43DS.Shift4Button.State : Swift.Equatable {}
+extension Shift43DS.Shift4Button.State : Swift.Hashable {}

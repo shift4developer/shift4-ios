@@ -1,0 +1,57 @@
+"add_payment" = "Makse lisamine";
+"select_amount" = "Vali summa";
+"email" = "E-mail";
+"card_information" = "Kaardi andmed";
+"card_number" = "Kaardi number";
+"expiration" = "Aegumiskuupäev";
+"cvc" = "CVC";
+"enter_payment_data" = "Enter payment data";
+"confirm" = "Kinnita";
+"pay" = "Maksa";
+"user_information" = "Kasutajate andmed";
+"unlock_card_details" = "Unlock card details";
+"sms_code_info" = "Kirjutage kood, mille me just teie mobiiltelefonile saatsime";
+"card" = "Card";
+"no_code_info" = "Koodi ei saanud?";
+"invalid_email" = "email: Vale e-posti aadress.";
+"unknown_error" = "Tundmatu viga. Proovige uuesti või võtke ühendust klienditoega.";
+"invalid_number" = "Kaardi number ei ole kehtiv kaardinumber.";
+"invalid_expiry_month" = "Kaardi\ aegumiskuu on kehtetu.";
+"invalid_expiry_year" = "Kaardi kehtivusaasta on kehtetu.";
+"invalid_cvc" = "Kaardi turvakood on kehtetu.";
+"incorrect_cvc" = "Kaardi turvakoodi kontrollimine ebaõnnestus.";
+"incorrect_zip" = "Kaardi postiindeks ei õnnestunud kontrollida.";
+"expired_card" = "Kaart on aegunud.";
+"insufficient_funds" = "Maksusumma ületab olemasolevat fondi või kaardi\ krediidilimiiti.";
+"lost_or_stolen" = "Kaart on märgitud kaotatud või varastatud.";
+"suspected_fraud" = "Koormus on arvatavasti pettus.";
+"card_declined" = "Kaart on muul põhjusel tagasi lükatud.";
+"processing_error" = "Kaardi töötlemisel tekkis viga.";
+"blacklisted" = "Kaart on musta nimekirja kantud.";
+"expired_token" = "Token on aegunud.";
+"insufficient_funds" = "Ületatud summa ületab olemasolevat fondi või kaardi krediidilimiiti.";
+
+"enter_card_details" = "Sisestage kaardi andmed";
+"shift4_remembers" = "Shift4 jätab teie kaardi meelde.";
+"authentication_required" = "Laadimine nõuab kaardiomaniku autentimist.";
+"Rate limit exceeded" = "Ühenduste limiit ületatud";
+"enrolledCardIsRequired" = "Laadimine nõuab kaardiomaniku autentimist.";
+"successfulLiabilityShiftIsRequired" = "Laadimine nõuab kaardiomaniku autentimist.";
+
+"request_timedout" = "Võrgupäring aegunud. Kontrollige oma võrku ja proovige uuesti.";
+"poor_connection" = "Halb ühendus. Kontrollige oma võrku ja proovige uuesti.";
+"unknown_connection_error" = "Ühenduse viga. Kontrollige oma võrku ja proovige uuesti.";
+
+"loading_payment_info" = "Makseteabe laadimine...";
+"save_for_future_payments" = "Pea mind meeles Shift4-s";
+"name" = "Eesnimi";;
+"street" = "Street";;
+"zip" = "Postiindeks";;;
+"city" = "Linn";;;
+"country" = "Riik";;;
+"vat" = "VAT number";;;
+"same_address_switch" = "Sama tarne- ja arveldusaadress";
+"billing" = "Arveldusaadress";
+"shipping" = "Tarneaadress";
+
+"shift4_safely_stores" = "Shift4 säilitab teie krediitkaardiandmeid turvaliselt.";
